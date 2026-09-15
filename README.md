@@ -29,49 +29,52 @@ El orden del menú y los datos de la cabecera están en `contenido/edicion.json`
    rama `main`, carpeta `/ (root)` → *Save*.
 4. En uno o dos minutos el sitio queda en `https://TU-USUARIO.github.io/la-cuestion/`.
 
-## 2. Editar el periódico desde el navegador
+## 2. Editar el periódico (solo la mesa de redacción)
 
-Pulsa **Editar** en el menú (o abre la dirección con `?editar` al final).
+Quien abre el enlace normal —por ejemplo, el docente— ve únicamente el periódico: no hay botones
+ni herramientas de edición. Para editar se entra por una dirección especial y con la **clave del grupo**.
 
-- **Textos:** haz clic en cualquier texto y escribe. Selecciona palabras para aplicar **N** (negrita),
-  *K* (cursiva) o 🔗 (enlace) con la barra inferior.
-- **Listas** (párrafos, conceptos del glosario, datos, viñetas, tarjetas, referencias, filas del cronograma…):
-  usa **+ Añadir**. Al pasar el ratón sobre un elemento aparecen ↑ ↓ (mover), ⧉ (duplicar) y ✕ (eliminar).
-- **Imágenes:** haz clic sobre la imagen para subir una desde tu computador o escribir su ruta.
-- **Enlaces «Leer →»:** haz clic para elegir a qué sección llevan.
-- **Crucigrama:** al editar aparece la lista de palabras y pistas; la rejilla se rehace sola.
-- **Secciones:** el botón **Secciones** permite renombrar, reordenar, ocultar, duplicar o eliminar.
-  **+ Nueva sección** crea una sección a partir de una plantilla: *Columna de análisis teórico*
-  (con todos los apartados que exige la rúbrica), *Artículo libre*, *Editorial*, *Tira cómica*,
-  *Crucigrama*, *Agenda* o *Portada*.
-- **Deshacer** revierte el último cambio.
+### Configuración inicial (una sola vez, la hace el administrador del repositorio)
 
-Mientras editas, todo se guarda automáticamente **como borrador en ese navegador**. Para que otras
-personas vean los cambios tienes dos opciones:
+1. En GitHub: *foto de perfil → Settings → Developer settings → Personal access tokens → Fine-grained tokens →
+   Generate new token*. Ponle **fecha de vencimiento** (por ejemplo, el fin del semestre), en *Repository access*
+   elige **Only select repositories → lacuestion** y en *Permissions → Contents* marca **Read and write**.
+2. Abre `https://TU-USUARIO.github.io/lacuestion/?editar` y pulsa **Soy el administrador**.
+3. Escribe usuario, repositorio, rama (`main`) y el token. Más abajo escribe la **clave del grupo**
+   (una frase de al menos 12 caracteres) y pulsa **Guardar la clave del grupo en GitHub**.
+   Se crea `contenido/acceso.json` con la conexión **cifrada** con esa clave.
+4. Comparte con tus compañeros, por un canal privado, la dirección terminada en `?editar` y la clave.
+   Al docente envíale el enlace **sin** `?editar`.
 
-### Opción A · Publicar directamente (recomendada)
+### Para los compañeros (sin cuenta de GitHub)
 
-1. En GitHub: *Settings (de tu cuenta) → Developer settings → Personal access tokens → Fine-grained tokens →
-   Generate new token*.
-2. *Repository access: Only select repositories* → elige el repositorio del periódico.
-3. *Permissions → Repository permissions → Contents: Read and write*. Genera y copia el token.
-4. En el sitio, modo edición → **GitHub** → escribe usuario, repositorio, rama (`main`) y el token →
-   **Probar conexión** → **Guardar**.
-5. **Publicar**. Se crea un único commit con todo el contenido; GitHub Pages lo muestra en uno o dos minutos.
+1. Abrir la dirección terminada en `?editar` (o pulsar **Ctrl + Mayús + E** estando en el periódico).
+2. Escribir la clave del grupo → **Entrar**.
+3. Editar:
+   - **Textos:** clic y escribir. Con la barra inferior: **N** negrita, *K* cursiva, 🔗 enlace.
+   - **Listas** (párrafos, conceptos, datos, viñetas, tarjetas, referencias…): **+ Añadir**; al pasar el ratón
+     sobre un elemento aparecen ↑ ↓ (mover), ⧉ (duplicar) y ✕ (eliminar).
+   - **Imágenes:** clic sobre la imagen para subir otra. **Enlaces «Leer →»:** clic para elegir la sección.
+   - **Secciones:** renombrar, ordenar, ocultar o eliminar; **+ Nueva sección** usa plantillas
+     (la de *Columna* trae todos los apartados de la rúbrica).
+   - **Deshacer** revierte el último cambio. Mientras se edita, todo queda como borrador en ese navegador.
+4. **Publicar**: sube todo a GitHub en un solo paso. El sitio se actualiza en uno o dos minutos.
+5. En computadores compartidos, terminar con **Cerrar sesión**.
 
-El token se guarda solo en ese navegador. No marques «Recordar» en computadores compartidos y
-revoca el token en GitHub cuando termine el curso.
+### Seguridad
 
-### Opción B · Descargar y subir a mano
+- `contenido/acceso.json` es público pero está cifrado: sin la clave no sirve. Una clave larga y poco obvia
+  es lo que lo protege; no la publiques en grupos abiertos.
+- El token solo puede escribir en este repositorio y vence en la fecha elegida. Si la clave se filtra o
+  alguien sale del grupo, repite el paso 3 con una clave nueva (y, si quieres, un token nuevo).
+- Al terminar el curso, revoca el token en GitHub.
 
-**Descargar ZIP** genera la carpeta `contenido/` (y `imagenes/subidas/` si subiste imágenes).
-Descomprímela y súbela al repositorio reemplazando los archivos existentes.
+### Otras formas de actualizar
 
-### Opción C · Editar los JSON en GitHub
-
-Cada sección es un archivo de `contenido/secciones/`. Puedes abrirlo en GitHub, pulsar el lápiz y
-editarlo. Los textos admiten `<strong>`, `<em>`, `<a href="…">` y `<br>`. Para una sección nueva,
-crea el archivo y añade su nombre (sin `.json`) a `orden` en `contenido/edicion.json`.
+- **Descargar ZIP** (en la barra de edición) genera `contenido/` e `imagenes/subidas/` para subirlos a mano.
+- Cada sección es un archivo de `contenido/secciones/` que también se puede editar directamente en GitHub.
+  Los textos admiten `<strong>`, `<em>`, `<a href="…">` y `<br>`. Para una sección nueva, crea el archivo y
+  añade su nombre (sin `.json`) a `orden` en `contenido/edicion.json`.
 
 ## 3. Ver el sitio en tu computador
 
@@ -93,6 +96,7 @@ css/editor.css          herramientas del modo edición
 js/app.js               carga del contenido, menú y rutas (#/s/<sección>)
 js/render.js            cómo se dibuja cada tipo de sección
 js/editor.js            modo edición
+js/acceso.js            clave del grupo (conexión de GitHub cifrada)
 js/plantillas.js        plantillas de secciones nuevas
 js/crucigrama.js        generador y juego del crucigrama
 js/github.js            ZIP y publicación en GitHub

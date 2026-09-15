@@ -1,11 +1,15 @@
 // Arranque: carga la edición, enruta (#/, #/s/<id>, #/edicion) y dibuja cabecera, menú y pie.
+// El modo edición no se muestra al público: se entra con ?editar en la dirección (o Ctrl+Shift+E)
+// y, fuera del computador local, exige un token de GitHub con permiso de escritura.
 
 import { renderSeccion } from "./render.js";
 import { activarCrucigramas } from "./crucigrama.js";
 import { escapar, limpiar, textoPlano, clonar } from "./util.js";
 
 const CLAVE_BORRADOR = "la-cuestion:borrador";
+const CLAVE_GITHUB = "la-cuestion:github";
 const $ = (sel) => document.querySelector(sel);
+const esLocal = ["localhost", "127.0.0.1"].includes(location.hostname);
 
 export const estado = { edicion: null, secciones: {}, servidor: null, editando: false, despuesDePintar: null };
 
@@ -43,6 +47,11 @@ export function descartarBorrador() {
 export const hayCambios = () =>
   JSON.stringify({ e: estado.edicion, s: estado.secciones }) !== JSON.stringify({ e: estado.servidor.edicion, s: estado.servidor.secciones });
 
+/** Este navegador ya se identificó como editor (tiene una conexión de GitHub guardada). */
+function esNavegadorEditor() {
+  try { return esLocal || !!(localStorage.getItem(CLAVE_GITHUB) || sessionStorage.getItem(CLAVE_GITHUB)); } catch { return esLocal; }
+}
+
 // ---------------------------------------------------------------- piezas globales
 const campo = (ruta, valor, etiqueta = "span", clase = "") =>
   `<${etiqueta} class="${clase}${limpiar(valor) ? "" : " vacio"}" data-e="${ruta}">${limpiar(valor ?? "")}</${etiqueta}>`;
@@ -64,9 +73,7 @@ function pintarMenu(activa) {
     <ul>${visibles.map((s) => `<li><a href="#/s/${escapar(s.id)}"${s.id === activa ? ' class="activo" aria-current="page"' : ""}>${escapar(textoPlano(s.menu || s.id))}</a></li>`).join("")}</ul>
     <div class="menu-herr">
       <a class="boton" href="#/edicion"${activa === "#edicion" ? ' aria-current="page"' : ""}>Edición completa</a>
-      <button class="boton" type="button" id="boton-editar">${estado.editando ? "Salir de edición" : "Editar"}</button>
     </div>`;
-  $("#boton-editar").addEventListener("click", alternarEdicion);
 }
 
 function pintarPie() {
@@ -112,13 +119,13 @@ export function pintar({ mantenerScroll = false } = {}) {
   estado.despuesDePintar?.();
 }
 
-// ---------------------------------------------------------------- edición
-async function alternarEdicion() {
-  const { activarEditor, desactivarEditor } = await import("./editor.js");
-  if (estado.editando) desactivarEditor(); else activarEditor(api);
-}
-
+// ---------------------------------------------------------------- acceso de editores
 export const api = { estado, pintar, guardarBorrador, descartarBorrador, leerBorrador, hayCambios, cargarServidor };
+
+async function pedirAcceso() {
+  const { solicitarAcceso } = await import("./editor.js");
+  solicitarAcceso(api);
+}
 
 function avisoBorrador(borrador) {
   const fecha = new Date(borrador.guardado).toLocaleString("es-CO", { dateStyle: "long", timeStyle: "short" });
@@ -128,15 +135,14 @@ function avisoBorrador(borrador) {
   aviso.innerHTML = `<p>Hay un <strong>borrador sin publicar</strong> guardado en este navegador (${escapar(fecha)}).</p>
     <div><button class="boton primario" data-b="usar">Ver y seguir editando</button> <button class="boton" data-b="descartar">Descartar borrador</button></div>`;
   document.body.prepend(aviso);
-  aviso.addEventListener("click", async (e) => {
+  aviso.addEventListener("click", (e) => {
     const accion = e.target.closest("[data-b]")?.dataset.b;
     if (!accion) return;
     if (accion === "usar") {
       estado.edicion = borrador.edicion;
       estado.secciones = borrador.secciones;
       pintar();
-      const { activarEditor } = await import("./editor.js");
-      activarEditor(api);
+      pedirAcceso();
     } else descartarBorrador();
     aviso.remove();
   });
@@ -155,12 +161,14 @@ async function iniciar() {
   }
   activarCrucigramas(document.body);
   window.addEventListener("hashchange", () => { pintar(); window.scrollTo(0, 0); $("#contenido").focus({ preventScroll: true }); });
+  window.addEventListener("keydown", (e) => {
+    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "e" && !estado.editando) { e.preventDefault(); pedirAcceso(); }
+  });
   pintar();
   const borrador = leerBorrador();
-  if (borrador && JSON.stringify({ e: borrador.edicion, s: borrador.secciones }) !== JSON.stringify({ e: estado.edicion, s: estado.secciones })) {
-    avisoBorrador(borrador);
-  }
-  if (new URLSearchParams(location.search).has("editar")) alternarEdicion();
+  const distinto = borrador && JSON.stringify({ e: borrador.edicion, s: borrador.secciones }) !== JSON.stringify({ e: estado.edicion, s: estado.secciones });
+  if (distinto && esNavegadorEditor()) avisoBorrador(borrador);
+  if (new URLSearchParams(location.search).has("editar")) pedirAcceso();
 }
 
 iniciar();

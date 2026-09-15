@@ -130,7 +130,7 @@ const aBase64 = (bytes) => {
 };
 
 /** Publica todos los archivos en un único commit y elimina secciones que ya no existen. */
-export async function publicarEnGitHub(config, archivos, mensaje, alProgresar = () => {}) {
+export async function publicarEnGitHub(config, archivos, mensaje, alProgresar = () => {}, podar = true) {
   const rama = config.rama || "main";
   alProgresar("Leyendo la rama…");
   const ref = await llamar(config, `/git/ref/heads/${encodeURIComponent(rama)}`);
@@ -144,7 +144,7 @@ export async function publicarEnGitHub(config, archivos, mensaje, alProgresar = 
     const blob = await llamar(config, "/git/blobs", { method: "POST", body: JSON.stringify({ content: aBase64(bytes), encoding: "base64" }) });
     entradas.push({ path: archivo.ruta, mode: "100644", type: "blob", sha: blob.sha });
   }
-  for (const item of arbolBase.tree) {
+  for (const item of podar ? arbolBase.tree : []) {
     if (item.type === "blob" && item.path.startsWith("contenido/secciones/") && !rutasNuevas.has(item.path)) {
       entradas.push({ path: item.path, mode: "100644", type: "blob", sha: null });
     }
