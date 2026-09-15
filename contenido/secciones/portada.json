@@ -49,25 +49,25 @@
   ],
   "franja": [
     {
-      "etiqueta": "Columna 3 · Desarrollo humano",
-      "titulo": "La calle no es solo un lugar: es la ausencia de libertades reales",
-      "texto": "Amartya Sen y Martha Nussbaum para leer a quienes viven en los corredores urbanos.",
-      "imagen": "imagenes/miniatura_calle.webp",
-      "enlace": "columna-3"
+      "etiqueta": "Editorial · Público objetivo",
+      "titulo": "Para quién escribimos LA CUESTIÓN",
+      "texto": "Estudiantes y profesionales de Trabajo Social, servidores públicos y lectores que quieren entender el país más allá del titular.",
+      "imagen": "",
+      "enlace": "editorial"
     },
     {
-      "etiqueta": "Columna 4 · Desorganización social",
-      "titulo": "Fronteras invisibles: cuando el barrio expulsa a sus vecinos",
-      "texto": "Shaw y McKay ante el desplazamiento intraurbano por control territorial de combos.",
-      "imagen": "imagenes/miniatura_combos.webp",
-      "enlace": "columna-4"
+      "etiqueta": "Editorial · Estilo",
+      "titulo": "Opinar con argumentos, no con adjetivos",
+      "texto": "Titulares llamativos pero analíticos, fuentes verificables y citación en normas APA.",
+      "imagen": "",
+      "enlace": "editorial"
     },
     {
-      "etiqueta": "Columna 5 · Reproducción social",
-      "titulo": "La niñez que hereda la plaza de mercado",
-      "texto": "Bourdieu y Passeron frente al trabajo infantil en plazas y semáforos.",
-      "imagen": "imagenes/miniatura_ninez.webp",
-      "enlace": "columna-5"
+      "etiqueta": "Agenda",
+      "titulo": "Una columna por sesión hasta la sustentación",
+      "texto": "Consulta el cronograma del curso y las referencias de esta edición.",
+      "imagen": "",
+      "enlace": "agenda"
     }
   ]
 }

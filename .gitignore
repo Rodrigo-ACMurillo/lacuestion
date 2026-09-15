@@ -18,3 +18,8 @@ Thumbs.db
 desktop.ini
 .DS_Store
 .vscode/
+
+# Columnas de sesiones futuras: se quedan en local hasta que se aborden en clase
+contenido/secciones/columna-3.json
+contenido/secciones/columna-4.json
+contenido/secciones/columna-5.json

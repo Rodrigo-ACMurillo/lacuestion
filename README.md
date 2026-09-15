@@ -11,14 +11,15 @@ Versión web y editable del periódico de la **Actividad 1 · Problemas sociales
 | Portada | `contenido/secciones/portada.json` | portada |
 | Editorial general (Columna 1) | `editorial.json` | editorial |
 | Columna 2 · Suárez | `columna-2.json` | columna |
-| Columna 3 · Habitantes de calle (Sen y Nussbaum) | `columna-3.json` | columna |
-| Columna 4 · Desplazamiento intraurbano (Shaw y McKay) | `columna-4.json` | columna |
-| Columna 5 · Niñez trabajadora (Bourdieu y Passeron) | `columna-5.json` | columna |
 | Crucigrama interactivo | `crucigrama.json` | crucigrama |
 | Tira cómica «Calle Cero» | `tira.json` | tira |
 | Agenda, cronograma y referencias | `agenda.json` | agenda |
 
 El orden del menú y los datos de la cabecera están en `contenido/edicion.json`.
+
+> **Columnas 3, 4 y 5:** están listas en el computador del administrador, pero no se publican hasta su sesión
+> (figuran en `.gitignore`). Para publicar una: quita su línea del `.gitignore`, añade su nombre a `orden`
+> en `contenido/edicion.json` y súbela (`git add`, `git commit`, `git push`).
 
 ## 1. Publicar en GitHub Pages
 
@@ -113,7 +114,6 @@ como PDF* produce una versión para entregar.
 
 ## Fuentes de los datos
 
-Las cifras de las columnas provienen de fuentes verificadas: DANE (pobreza monetaria 2025 y Censo de
-Habitantes de la Calle), DNP (CONPES 3877), Personería Distrital de Medellín (desplazamiento
-intraurbano 2024), El Tiempo, El Universal y La República. Las referencias completas están en la sección
-*Agenda y fuentes*. Revísalas antes de cada entrega si actualizas los datos.
+Las cifras publicadas provienen de fuentes verificadas: DANE (pobreza monetaria 2025), DNP (CONPES 3877)
+y El Tiempo. Las referencias completas están en la sección *Agenda y fuentes*. Revísalas antes de cada
+entrega si actualizas los datos.
