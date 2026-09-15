@@ -1,0 +1,69 @@
+{
+  "tipo": "tira",
+  "menu": "Tira cómica",
+  "visible": true,
+  "cintillo": {
+    "seccion": "Humor gráfico",
+    "detalle": "Tira cómica",
+    "derecha1": "Guion y dibujo",
+    "derecha2": "Mesa de redacción de LA CUESTIÓN"
+  },
+  "titulo": "Calle Cero",
+  "entradilla": "Un problema social se vuelve noticia, luego programa y otra vez olvido. Historia inventada, conceptos reales.",
+  "vinetas": [
+    {
+      "imagen": "imagenes/tira_vineta1.webp",
+      "textos": [
+        { "personaje": "", "texto": "1 · Corredor de la avenida del río, 6:00 a. m. Hace cuatro años don Ramiro duerme bajo este puente. Nadie lo ve." }
+      ]
+    },
+    {
+      "imagen": "imagenes/tira_vineta2.webp",
+      "textos": [
+        { "personaje": "Reportera", "texto": "¡Última hora! ¡Crisis en el corredor! ¿Quién tiene la culpa?" },
+        { "personaje": "Don Ramiro", "texto": "¿Crisis? Yo llevo aquí cuatro años..." }
+      ]
+    },
+    {
+      "imagen": "imagenes/tira_vineta3.webp",
+      "textos": [
+        { "personaje": "", "texto": "3 · Esa tarde, en rueda de prensa..." },
+        { "personaje": "El doctor Cifra", "texto": "¡Lanzamos Calle Cero! Meta: cero habitantes de calle en 30 días." }
+      ]
+    },
+    {
+      "imagen": "imagenes/tira_vineta4.webp",
+      "textos": [
+        { "personaje": "Lucía, trabajadora social", "texto": "Salió en el noticiero y ya hay programa: ahora es una «cuestión socialmente problematizada». ¿Alguien le preguntó a don Ramiro?" }
+      ]
+    },
+    {
+      "imagen": "imagenes/tira_vineta5.webp",
+      "textos": [
+        { "personaje": "", "texto": "5 · Tres meses después..." },
+        { "personaje": "Don Ramiro", "texto": "Vinieron, me tomaron una foto y se fueron. Dicen que se acabó la plata." }
+      ]
+    },
+    {
+      "imagen": "imagenes/tira_vineta6.webp",
+      "textos": [
+        { "personaje": "Lucía", "texto": "El problema no era solo la calle: era un programa sin cobertura real, rígido y sin presupuesto estable. Empecemos por escucharlo." },
+        { "personaje": "Don Ramiro", "texto": "Por fin alguien pregunta." }
+      ]
+    }
+  ],
+  "claves": [
+    {
+      "titulo": "Viñetas 1 y 2 · De problema a cuestión",
+      "texto": "Una condición de años solo se vuelve «cuestión» cuando captura la atención pública a través de los medios (Suárez, 1989)."
+    },
+    {
+      "titulo": "Viñetas 3 y 4 · La meta como espectáculo",
+      "texto": "Un programa hecho bajo presión mediática promete resultados sin diagnóstico ni participación: nadie preguntó por las capacidades de don Ramiro (columna 3)."
+    },
+    {
+      "titulo": "Viñetas 5 y 6 · Problemas del programa",
+      "texto": "Cobertura insuficiente, rigidez y financiamiento discontinuo: la vulnerabilidad del programa se suma a la de quien vive en la calle."
+    }
+  ]
+}

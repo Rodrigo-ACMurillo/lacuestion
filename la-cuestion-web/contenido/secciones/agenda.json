@@ -1,0 +1,85 @@
+{
+  "tipo": "agenda",
+  "menu": "Agenda y fuentes",
+  "visible": true,
+  "cintillo": {
+    "seccion": "Agenda",
+    "detalle": "Columnas, cronograma y fuentes",
+    "derecha1": "Contraportada",
+    "derecha2": "Cronograma académico 2026"
+  },
+  "titulo": "Las columnas de LA CUESTIÓN",
+  "tarjetas": [
+    {
+      "imagen": "imagenes/tira_vineta5.webp",
+      "fecha": "8 de septiembre · Columna 2",
+      "titulo": "El programa también es el problema",
+      "teoria": "Lectura base · Francisco M. Suárez (CIDES)",
+      "texto": "La pobreza baja en las cifras mientras la transición del Sisbén al RUI pone en riesgo las transferencias de miles de hogares.",
+      "pregunta": "¿Cuándo un programa social se convierte, él mismo, en un problema?",
+      "enlace": "columna-2"
+    },
+    {
+      "imagen": "imagenes/miniatura_calle.webp",
+      "fecha": "15 de septiembre · Columna 3",
+      "titulo": "Habitantes de calle concentrados en corredores urbanos",
+      "teoria": "Teoría del Desarrollo Humano · Amartya Sen y Martha Nussbaum",
+      "texto": "El enfoque de capacidades desplaza la pregunta del ingreso a lo que las personas pueden efectivamente ser y hacer.",
+      "pregunta": "¿Qué capacidades niega la vida en los corredores urbanos y quién debe garantizarlas?",
+      "enlace": "columna-3"
+    },
+    {
+      "imagen": "imagenes/miniatura_combos.webp",
+      "fecha": "22 de septiembre · Columna 4",
+      "titulo": "Desplazamiento intraurbano por control territorial de combos",
+      "teoria": "Teoría de la Desorganización Social · Clifford R. Shaw y Henry D. McKay",
+      "texto": "Shaw y McKay mostraron que la delincuencia se concentra en territorios con lazos comunitarios debilitados, más allá de quiénes los habiten.",
+      "pregunta": "¿Qué condiciones del barrio, y no solo de las personas, permiten que un combo decida quién se va?",
+      "enlace": "columna-4"
+    },
+    {
+      "imagen": "imagenes/miniatura_ninez.webp",
+      "fecha": "29 de septiembre · Columna 5",
+      "titulo": "Niñez trabajando en las plazas de mercado y semáforos",
+      "teoria": "Teoría de la Reproducción Social · Pierre Bourdieu y Jean-Claude Passeron",
+      "texto": "Para Bourdieu y Passeron, la escuela tiende a reproducir las desigualdades de capital cultural y a legitimarlas como mérito individual.",
+      "pregunta": "¿Cómo se hereda el trabajo infantil y qué papel juega la escuela en romper ese ciclo?",
+      "enlace": "columna-5"
+    }
+  ],
+  "cronograma": {
+    "titulo": "Cronograma académico",
+    "encabezados": ["Sesión", "Fecha", "Columna y problema social", "Teoría y autores"],
+    "filas": [
+      ["<strong>1</strong>", "<strong>8/9/2026</strong>", "Columna 1: editorial general. Columna 2: análisis teórico-metodológico", "Lectura base: Francisco M. Suárez (CIDES)"],
+      ["<strong>2</strong>", "<strong>15/9/2026</strong>", "Columna 3: habitantes de calle en corredores urbanos", "Desarrollo Humano: Sen y Nussbaum"],
+      ["<strong>3</strong>", "<strong>22/9/2026</strong>", "Columna 4: desplazamiento intraurbano por control territorial de combos", "Desorganización Social: Shaw y McKay"],
+      ["<strong>4</strong>", "<strong>29/9/2026</strong>", "Columna 5: niñez trabajando en plazas de mercado y semáforos", "Reproducción Social: Bourdieu y Passeron"],
+      ["<strong>5</strong>", "<strong>6/10/2026</strong>", "Sustentación", "—"]
+    ]
+  },
+  "cartas": {
+    "titulo": "Cartas a la redacción",
+    "parrafos": [
+      "¿Conoces un programa social que llegó tarde, llegó mal o nunca llegó? Escríbenos: la próxima cuestión puede salir de tu barrio.",
+      "<strong>Correo:</strong> [correo del grupo]",
+      "<strong>Cómo citar:</strong> Mesa de redacción. (2026). <em>LA CUESTIÓN</em>, (1). Curso Problemas sociales contemporáneos."
+    ]
+  },
+  "titulo_referencias": "Referencias",
+  "referencias": [
+    "Bourdieu, P., y Passeron, J.-C. (1970). <em>La reproduction: Éléments pour une théorie du système d’enseignement</em>. Les Éditions de Minuit.",
+    "Congreso de la República de Colombia. (2013). <em>Ley 1641 de 2013, por la cual se establecen los lineamientos para la formulación de la política pública social para habitantes de la calle</em>.",
+    "Departamento Administrativo Nacional de Estadística [DANE]. (2021). <em>Censo de Habitantes de la Calle (CHC)</em>. https://www.dane.gov.co/index.php/estadisticas-por-tema/demografia-y-poblacion/censo-habitantes-de-la-calle",
+    "Departamento Administrativo Nacional de Estadística [DANE]. (2026, 12 de junio). <em>Pobreza monetaria en Colombia. Año 2025</em> [Boletín técnico]. https://www.dane.gov.co/files/operaciones/PM/bol-PM-2025.pdf",
+    "Departamento Nacional de Planeación [DNP]. (2016). <em>Documento CONPES 3877: Declaración de importancia estratégica del Sistema de Identificación de Potenciales Beneficiarios (Sisbén IV)</em>. https://colaboracion.dnp.gov.co/CDT/Conpes/Económicos/3877.pdf",
+    "El Tiempo. (2026, 28 de agosto). Reprograman pagos de Renta Ciudadana y Devolución del IVA en septiembre de 2026 por revisión técnica del RUI. <em>El Tiempo</em>.",
+    "El Universal. (2026, 12 de junio). Trabajo infantil en Colombia afectó a 302.000 menores en 2025. <em>El Universal</em>.",
+    "La República. (2021). Entre 2017 y 2021 se censaron 34.091 habitantes de calle en el territorio nacional. <em>La República</em>.",
+    "Nussbaum, M. C. (2012). <em>Crear capacidades: Propuesta para el desarrollo humano</em>. Paidós.",
+    "Personería Distrital de Medellín. (2024, 24 de septiembre). <em>889 personas han sido víctimas de desplazamiento intraurbano en 2024</em>.",
+    "Sen, A. (2000). <em>Desarrollo y libertad</em>. Planeta.",
+    "Shaw, C. R., y McKay, H. D. (1942). <em>Juvenile delinquency and urban areas</em>. University of Chicago Press.",
+    "Suárez, F. M. (1989). <em>Problemas sociales y problemas de programas sociales masivos</em>. Centro Interamericano para el Desarrollo Social (CIDES); CEPAL. https://repositorio.cepal.org/handle/11362/33446"
+  ]
+}

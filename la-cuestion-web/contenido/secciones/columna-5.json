@@ -1,0 +1,55 @@
+{
+  "tipo": "columna",
+  "menu": "Columna 5 · Niñez",
+  "visible": true,
+  "cintillo": {
+    "seccion": "Análisis",
+    "detalle": "Columna 5 · Reproducción social",
+    "derecha1": "Pierre Bourdieu · Jean-Claude Passeron",
+    "derecha2": "Sesión 4 · 29 de septiembre de 2026"
+  },
+  "antetitulo": "Trabajo infantil · Plazas de mercado y semáforos",
+  "titulo": "La niñez que hereda la plaza de mercado",
+  "subtitulo": "Más de 300.000 niñas, niños y adolescentes trabajaban en Colombia al cierre de 2025. La teoría de la reproducción social de Bourdieu y Passeron explica por qué ese trabajo tiende a heredarse y por qué la escuela, en lugar de romper el ciclo, a veces lo legitima.",
+  "firma": "Mesa de redacción · Colombia",
+  "imagen": "imagenes/miniatura_ninez.webp",
+  "pie": "Entre guacales y toldos, un niño carga la mercancía antes de la jornada escolar.",
+  "glosario": {
+    "titulo": "Glosario teórico",
+    "terminos": [
+      { "termino": "Capital cultural.", "definicion": "Saberes, formas de hablar, títulos y disposiciones que la escuela valora y que las familias heredan de manera desigual según su posición social." },
+      { "termino": "Violencia simbólica.", "definicion": "Imposición de significados como legítimos que oculta las relaciones de fuerza que los sostienen, de modo que los dominados aceptan su lugar como natural (Bourdieu y Passeron, 1970)." },
+      { "termino": "Arbitrario cultural.", "definicion": "La cultura que la escuela presenta como universal es la de los grupos dominantes, no una cultura superior por naturaleza (Bourdieu y Passeron, 1970)." }
+    ]
+  },
+  "cronica": [
+    "Durante el último trimestre de 2025, 302.000 niñas, niños y adolescentes de 5 a 17 años realizaban algún tipo de trabajo en Colombia, según el DANE. La tasa nacional de trabajo infantil fue de 2,8 % (El Universal, 2026).",
+    "La incidencia es desigual: 1,8 % en las cabeceras municipales y 5,2 % en centros poblados y zonas rurales dispersas. Aun así, 146.000 de esos menores estaban en áreas urbanas (El Universal, 2026), donde las plazas de mercado, los semáforos y las ventas ambulantes son escenarios cotidianos de un trabajo que muchas veces se hace junto a la propia familia.",
+    "En la plaza, el niño aprende a cargar, a negociar y a dar el cambio con rapidez. Son saberes reales, pero casi nunca cuentan en la escuela, donde llega cansado, con tareas sin hacer y con un vocabulario distinto al que se premia en clase."
+  ],
+  "lente": [
+    "Bourdieu y Passeron (1970) sostienen que la escuela no es neutral: evalúa a todos con los códigos culturales de las clases dominantes y trata como mérito individual lo que en realidad es herencia. El estudiante que llega con <em>capital cultural</em> familiar —libros, lenguaje académico, tiempo libre para estudiar— parece «talentoso»; el que llega desde la plaza parece «desinteresado».",
+    "Así opera la <em>violencia simbólica</em>: el bajo rendimiento se explica como falta de capacidad y no como desigualdad de origen, y las propias familias terminan aceptando que «el estudio no es para nosotros». El trabajo infantil deja de verse como una vulneración y se vive como destino natural. La reproducción social no necesita que nadie la planee: basta con que la escuela premie lo que unos traen de casa y castigue lo que otros no pudieron traer."
+  ],
+  "cita": "«La escuela convierte en mérito lo que es herencia, y en fracaso personal lo que es desigualdad»",
+  "punto_ciego": [
+    "La prensa sensacionalista muestra imágenes de lástima y culpa a los padres; la política pública tradicional responde con operativos para retirar a los niños de los semáforos, sanciones o transferencias condicionadas a la asistencia escolar. Ninguna de las dos pregunta qué ofrece la escuela a esos niños ni por qué la abandonan. Sin la teoría de la reproducción, se exige a las familias más pobres que confíen en una institución que, en la práctica, les confirma cada día que no pertenecen a ella."
+  ],
+  "pasos": { "titulo": "", "items": [] },
+  "datos": [
+    { "cifra": "302.000", "texto": "niñas, niños y adolescentes en trabajo infantil, último trimestre de 2025 (El Universal, 2026)" },
+    { "cifra": "2,8 %", "texto": "tasa nacional de trabajo infantil (El Universal, 2026)" },
+    { "cifra": "5,2 %", "texto": "tasa en centros poblados y zonas rurales, frente a 1,8 % en cabeceras (El Universal, 2026)" }
+  ],
+  "conclusion": {
+    "titulo": "Conclusión · Recomendación desde el Trabajo Social Crítico",
+    "parrafos": [
+      "Recomendamos una intervención que no criminalice a las familias ni se limite a sacar a los niños de la calle: <strong>(1)</strong> escuelas con jornadas y pedagogías que reconozcan los saberes que niñas y niños traen de la plaza; <strong>(2)</strong> espacios de cuidado y refuerzo escolar dentro o cerca de las plazas de mercado, articulados con las familias vendedoras, y <strong>(3)</strong> apoyo a los ingresos del hogar para que el trabajo infantil deje de ser una estrategia de supervivencia.",
+      "Desde el Trabajo Social Crítico, romper la reproducción social exige transformar también a la institución escolar, no solo a los niños que expulsa."
+    ]
+  },
+  "fuentes": [
+    "Bourdieu, P., y Passeron, J.-C. (1970). <em>La reproduction: Éléments pour une théorie du système d’enseignement</em>. Les Éditions de Minuit.",
+    "El Universal. (2026, 12 de junio). Trabajo infantil en Colombia afectó a 302.000 menores en 2025. <em>El Universal</em>. https://www.eluniversal.com.co/colombia/2026/06/12/trabajo-infantil-en-colombia-afecto-a-302000-menores-en-2025/"
+  ]
+}

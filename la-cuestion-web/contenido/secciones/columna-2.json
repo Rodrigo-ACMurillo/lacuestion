@@ -1,0 +1,66 @@
+{
+  "tipo": "columna",
+  "menu": "Columna 2 · Suárez",
+  "visible": true,
+  "cintillo": {
+    "seccion": "Análisis",
+    "detalle": "Columna 2 · Teórico-metodológica",
+    "derecha1": "Lectura base",
+    "derecha2": "Francisco M. Suárez · CIDES, 1989 · Sesión 1"
+  },
+  "antetitulo": "Políticas públicas · Diagnóstico de coyuntura",
+  "titulo": "El programa también es el problema",
+  "subtitulo": "La pobreza monetaria cayó al 28,0 % en 2025, pero el paso del Sisbén al Registro Universal de Ingresos amenaza a casi la mitad de los hogares de Renta Ciudadana. Francisco M. Suárez permite separar el problema social del problema del programa que pretende resolverlo.",
+  "firma": "Mesa de redacción · Bogotá",
+  "imagen": "imagenes/tira_vineta5.webp",
+  "pie": "Un programa que se anuncia con metas y se cierra por falta de presupuesto: el problema del programa se suma al problema social.",
+  "glosario": {
+    "titulo": "Glosario teórico",
+    "terminos": [
+      { "termino": "Problema social.", "definicion": "Condición indeseable que afecta a un número significativo de personas y que se cree corregible mediante la acción colectiva." },
+      { "termino": "Cuestión socialmente problematizada.", "definicion": "Asunto que actores estratégicamente situados logran poner en la agenda pública (Oszlak y O’Donnell, en Suárez, 1989)." },
+      { "termino": "Problema de programa.", "definicion": "Distancia entre lo que un programa debería lograr y su funcionamiento real: cobertura, rigidez, superposición o vulnerabilidad." }
+    ]
+  },
+  "cronica": [
+    "En junio de 2026 el DANE publicó una buena noticia: la pobreza monetaria pasó de 31,8 % en 2024 a 28,0 % en 2025 (DANE, 2026). Según esa medición, cerca de 1,8 millones de personas dejaron de ser pobres por ingresos en un solo año.",
+    "Dos meses después, la noticia fue otra. Prosperidad Social aplazó para septiembre el cuarto ciclo de pagos de Renta Ciudadana y Devolución del IVA, previsto para el 21 de agosto, mientras revisaba el paso del Sisbén al RUI, reglamentado por el Decreto 662 de 2026. La entidad advirtió que aplicar las nuevas reglas sin transición podría afectar a cerca del 49 % de los hogares de un programa que llega a unos 700.000 hogares (El Tiempo, 2026).",
+    "El problema no es nuevo. El CONPES 3877 reconoció que los errores de inclusión del Sisbén III pasaron de 46,8 % en 2010 a 49,9 % en 2015 frente a la pobreza monetaria (DNP, 2016): el instrumento que debía identificar a los pobres había perdido capacidad para hacerlo."
+  ],
+  "lente": [
+    "Suárez (1989) define el problema social como una condición que afecta a un número significativo de personas, que se considera indeseable y que se cree corregible mediante la acción colectiva: una discrepancia entre un <em>estándar de deseabilidad</em> y una realidad observada.",
+    "Su aporte decisivo es aplicar la misma lógica a los programas, cuyo funcionamiento real también puede alejarse de lo que deberían lograr. Esa distinción ordena el caso colombiano. La pobreza es el problema social; la focalización que excluye o incluye mal, la rigidez para adaptarse a un nuevo registro y la discontinuidad de los giros son problemas del programa. Suárez los nombra: cobertura insuficiente en extensión y en profundidad, rigidez ante los cambios del contexto, superposición de programas y vulnerabilidad institucional. Por eso la pobreza puede bajar en la encuesta mientras la protección de los hogares más frágiles se debilita."
+  ],
+  "cita": "«No todo problema social se convierte en una cuestión socialmente problematizada»",
+  "punto_ciego": [
+    "La prensa sensacionalista cuenta el aplazamiento como un escándalo de «colados» o de pagos perdidos; la política pública tradicional lo trata como un ajuste técnico de bases de datos. Ambas miradas ignoran lo que Suárez advierte: un problema solo se vuelve <em>cuestión</em> cuando alguien logra ponerlo en la agenda, y los hogares en pobreza extrema rara vez tienen voz para hacerlo. Los errores de exclusión no hacen ruido: quien nunca entra a un programa no aparece en ninguna noticia."
+  ],
+  "pasos": {
+    "titulo": "Del problema a la política (Suárez, 1989)",
+    "items": [
+      "<strong>Redefinición:</strong> lo aislado se ve como un problema compartido.",
+      "<strong>Focalización</strong> del descontento en aspectos salientes.",
+      "<strong>Atención pública</strong>, sobre todo a través de los medios.",
+      "<strong>Grupos de presión</strong> y movimientos sociales.",
+      "<strong>Cuestión socialmente problematizada:</strong> debate sobre la política y sus programas."
+    ]
+  },
+  "datos": [
+    { "cifra": "28,0 %", "texto": "pobreza monetaria nacional en 2025 (DANE, 2026)" },
+    { "cifra": "49 %", "texto": "hogares de Renta Ciudadana en riesgo sin transición (El Tiempo, 2026)" },
+    { "cifra": "49,9 %", "texto": "error de inclusión del Sisbén III frente a la pobreza monetaria en 2015 (DNP, 2016)" }
+  ],
+  "conclusion": {
+    "titulo": "Conclusión · Recomendación desde el Trabajo Social Crítico",
+    "parrafos": [
+      "Recomendamos que la transición al RUI no se ejecute como un simple cruce de bases de datos, sino como un proceso participativo con tres componentes: <strong>(1)</strong> un periodo de transición que garantice la continuidad de los hogares en pobreza extrema mientras se verifica su situación en territorio; <strong>(2)</strong> mesas de revisión comunitaria y rutas de reclamación accesibles, acompañadas por trabajadoras y trabajadores sociales, para reducir los errores de exclusión, y <strong>(3)</strong> un seguimiento que mida por qué salen los hogares del registro y qué les ocurre después.",
+      "Desde el Trabajo Social Crítico, el propósito no es depurar listas sino garantizar derechos: los hogares son sujetos con voz, no datos por validar."
+    ]
+  },
+  "fuentes": [
+    "Departamento Administrativo Nacional de Estadística [DANE]. (2026, 12 de junio). <em>Pobreza monetaria en Colombia. Año 2025</em> [Boletín técnico]. https://www.dane.gov.co/files/operaciones/PM/bol-PM-2025.pdf",
+    "Departamento Nacional de Planeación [DNP]. (2016). <em>Documento CONPES 3877: Declaración de importancia estratégica del Sistema de Identificación de Potenciales Beneficiarios (Sisbén IV)</em>. https://colaboracion.dnp.gov.co/CDT/Conpes/Económicos/3877.pdf",
+    "El Tiempo. (2026, 28 de agosto). Reprograman pagos de Renta Ciudadana y Devolución del IVA en septiembre de 2026 por revisión técnica del RUI. <em>El Tiempo</em>. https://www.eltiempo.com/economia/finanzas-personales/reprograman-pagos-de-renta-ciudadana-y-devolucion-del-iva-en-septiembre-de-2026-por-revision-tecnica-del-rui-razones-fechas-y-todo-lo-que-debe-saber-3581738",
+    "Suárez, F. M. (1989). <em>Problemas sociales y problemas de programas sociales masivos</em>. Centro Interamericano para el Desarrollo Social (CIDES); CEPAL. https://repositorio.cepal.org/handle/11362/33446"
+  ]
+}

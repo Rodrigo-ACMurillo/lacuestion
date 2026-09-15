@@ -1,0 +1,42 @@
+{
+  "tipo": "crucigrama",
+  "menu": "Crucigrama",
+  "visible": true,
+  "cintillo": {
+    "seccion": "Pasatiempos",
+    "detalle": "El crucigrama de la cuestión social",
+    "derecha1": "23 conceptos",
+    "derecha2": "Lectura de Suárez y teorías del curso"
+  },
+  "titulo": "Pon a prueba tu lente sociológico",
+  "entradilla": "Conceptos de Suárez y de las teorías de las columnas 3, 4 y 5. Escribe sin tildes, una letra por casilla. Haz doble clic en una casilla para cambiar entre horizontal y vertical.",
+  "palabras": [
+    { "palabra": "CARENCIALIDAD", "pista": "Tipo de problema social referido a necesidades básicas insatisfechas: alimentación, vivienda, salud." },
+    { "palabra": "VULNERABILIDAD", "pista": "Tipo de problema social ligado a riesgos del ciclo vital, cambios tecnológicos o catástrofes." },
+    { "palabra": "BUROCRATIZACION", "pista": "Proceso que, junto con la dependencia de la población, vuelve permanentes a los programas." },
+    { "palabra": "PARTICIPACION", "pista": "Problemas de exclusión, pseudoparticipación o aislamiento en la tipología de Suárez." },
+    { "palabra": "OBSOLESCENCIA", "pista": "Falta de actualización de las tecnologías y estructuras de un programa frente al estado del arte." },
+    { "palabra": "DESVIACION", "pista": "Problemas sociales ligados a la transgresión de normas vigentes, como la violencia urbana." },
+    { "palabra": "IDENTIDAD", "pista": "Problemas asociados al desarraigo, las relocalizaciones o la aculturación forzosa." },
+    { "palabra": "COBERTURA", "pista": "Problema de los programas que no llegan, en extensión ni en profundidad, a quienes más lo necesitan." },
+    { "palabra": "CUESTION", "pista": "Problema social que logra entrar en la agenda pública, según Oszlak y O’Donnell." },
+    { "palabra": "ESTANDAR", "pista": "La situación problemática es la distancia entre la realidad observada y un ___ de deseabilidad." },
+    { "palabra": "PROGRAMA", "pista": "Según Suárez, las políticas se plasman en un conjunto de ellos y estos, a su vez, en proyectos." },
+    { "palabra": "POBREZA", "pista": "Condición que, según el DANE, afectó al 28,0 % de la población colombiana en 2025." },
+    { "palabra": "MASIVOS", "pista": "Así califica Suárez a los programas sociales de gran escala que analiza." },
+    { "palabra": "SUAREZ", "pista": "Autor de «Problemas sociales y problemas de programas sociales masivos»: Francisco M. ___." },
+    { "palabra": "OSZLAK", "pista": "Politólogo argentino que, con Guillermo O’Donnell, habló de «cuestiones socialmente problematizadas»." },
+    { "palabra": "CIDES", "pista": "Sigla del Centro Interamericano para el Desarrollo Social, que publicó el texto de Suárez." },
+    { "palabra": "REPRODUCCION", "pista": "Teoría de Bourdieu y Passeron sobre cómo la escuela perpetúa la desigualdad (columna 5)." },
+    { "palabra": "CAPACIDADES", "pista": "Libertades reales para ser y hacer lo que se valora, en el enfoque de Sen y Nussbaum (columna 3)." },
+    { "palabra": "NUSSBAUM", "pista": "Filósofa estadounidense que propuso una lista de capacidades humanas centrales." },
+    { "palabra": "BOURDIEU", "pista": "Sociólogo francés que escribió con Passeron <em>La reproducción</em> (1970)." },
+    { "palabra": "HABITUS", "pista": "Para Bourdieu, sistema de disposiciones incorporadas que hace vivir la desigualdad como algo «natural»." },
+    { "palabra": "COMBOS", "pista": "Estructuras armadas barriales que ejercen control territorial en ciudades como Medellín." },
+    { "palabra": "SHAW", "pista": "Clifford R. ___, coautor con Henry D. McKay de la teoría de la desorganización social." }
+  ],
+  "sabias": {
+    "titulo": "¿Sabías que...?",
+    "texto": "El DANE mide la pobreza con la clasificación que propuso Amartya Sen en 1981: la medición directa evalúa privaciones; la indirecta, la capacidad de adquirir bienes y servicios (DANE, 2026)."
+  }
+}

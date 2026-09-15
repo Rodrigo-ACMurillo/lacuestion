@@ -1,0 +1,63 @@
+{
+  "tipo": "editorial",
+  "menu": "Editorial",
+  "visible": true,
+  "cintillo": {
+    "seccion": "Opinión",
+    "detalle": "Editorial general",
+    "derecha1": "Columna 1",
+    "derecha2": "Sesión 1 · 8 de septiembre de 2026"
+  },
+  "titulo": "Sin teoría, la crisis es solo ruido",
+  "entradilla": "Presentamos LA CUESTIÓN, un periódico que lee los problemas sociales de Colombia con las herramientas de la teoría sociológica y la mirada del Trabajo Social Crítico.",
+  "firma": "Editorial · Mesa de redacción",
+  "imagen": "imagenes/editorial_lente.webp",
+  "pie": "El lente sociológico: lo que a simple vista es paisaje gris, bajo la teoría aparece como problema con causas, actores y responsables.",
+  "recuadro": {
+    "titulo": "Mesa de redacción",
+    "cargos": [
+      { "titulo": "Dirección editorial", "texto": "[Nombre y apellido del integrante]" },
+      { "titulo": "Edición y corrección de estilo", "texto": "[Nombre y apellido del integrante]" },
+      { "titulo": "Investigación y verificación de fuentes", "texto": "[Nombre y apellido del integrante]" },
+      { "titulo": "Diseño, ilustración y tira cómica", "texto": "[Nombre y apellido del integrante]" },
+      { "titulo": "Curso", "texto": "Problemas sociales contemporáneos · Docente: Allison Paola Escobar · Trabajo grupal" }
+    ]
+  },
+  "bloques": [
+    {
+      "ladillo": "Por qué este periódico",
+      "parrafos": [
+        "Colombia no carece de noticias sobre sus problemas sociales. Cada semana se informa sobre personas que viven en la calle, barrios donde un combo decide quién entra y quién sale, o niños que venden dulces en los semáforos. Lo que escasea es la explicación. La prensa sensacionalista narra el drama; la política pública tradicional lo convierte en metas y cifras. Ambas suelen quedarse en la superficie.",
+        "LA CUESTIÓN nace para ocupar ese espacio. Tomamos el nombre de una idea de Oszlak y O’Donnell que Francisco M. Suárez (1989) retoma: una <em>cuestión socialmente problematizada</em> es un asunto que ciertos actores logran poner en la agenda porque creen que «puede y debe hacerse algo al respecto»."
+      ]
+    },
+    {
+      "ladillo": "Por qué la teoría es indispensable",
+      "parrafos": [
+        "La teoría no es un adorno académico: es la herramienta que permite pasar del síntoma a la causa. Sin ella, la pobreza parece un asunto de individuos que no se esfuerzan, la violencia barrial un tema exclusivo de policía y el trabajo infantil una decisión de familias irresponsables.",
+        "Las teorías del curso rompen ese sentido común. Las capacidades de Sen y Nussbaum preguntan qué libertades reales tiene una persona; la desorganización social de Shaw y McKay muestra cómo el debilitamiento de los lazos comunitarios facilita el control territorial, y la reproducción social de Bourdieu y Passeron revela cómo las instituciones convierten la desigualdad heredada en destino."
+      ]
+    },
+    {
+      "ladillo": "Cómo leer cada columna",
+      "parrafos": [
+        "Cada columna sigue la misma ruta: un titular de impacto; un subtítulo que ubica el fenómeno y la teoría; una caja de glosario con tres conceptos clave; la crónica del problema en Colombia, con fuentes verificables; el lente sociológico, que explica sus causas profundas; el punto ciego de los análisis tradicionales, y una conclusión con una recomendación de intervención desde el Trabajo Social Crítico."
+      ]
+    }
+  ],
+  "cita": "«Las cifras dicen cuánto. La teoría explica por qué. El Trabajo Social pregunta qué hacer y con quién.»",
+  "cajas": [
+    {
+      "titulo": "Público objetivo",
+      "texto": "Estudiantes y profesionales de Trabajo Social y ciencias sociales, servidores públicos que diseñan o ejecutan programas sociales, organizaciones comunitarias y lectores que quieren entender los problemas del país más allá del titular."
+    },
+    {
+      "titulo": "Estilo de redacción",
+      "texto": "Periodístico-académico: titulares llamativos pero analíticos, lenguaje claro y sin sensacionalismo, datos de fuentes oficiales y académicas verificables, y citación en normas APA (7.ª edición). Opinamos con argumentos, no con adjetivos."
+    },
+    {
+      "titulo": "Objetivo del periódico",
+      "texto": "Analizar problemas sociales contemporáneos de Colombia desde matrices teóricas de la sociología, identificar lo que ignoran la prensa sensacionalista y la política pública tradicional, y proponer intervenciones críticas, éticas y viables desde el Trabajo Social."
+    }
+  ]
+}

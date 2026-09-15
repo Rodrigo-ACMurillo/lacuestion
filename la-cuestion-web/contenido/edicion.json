@@ -1,0 +1,23 @@
+{
+  "periodico": {
+    "numero": "01",
+    "datos": "Fundado en 2026<br>Año I · Número 1",
+    "nombre": "LA CUESTIÓN",
+    "lema": "El periódico de análisis social",
+    "edicion": "Edición digital · Colombia",
+    "dia": "Martes",
+    "fecha": "15 de septiembre de 2026",
+    "pie": "LA CUESTIÓN · Actividad 1 · Problemas sociales contemporáneos · Docente: Allison Paola Escobar<br>Ilustraciones y tira cómica originales de la mesa de redacción · Tipografías libres (SIL Open Font License): Newsreader y Oswald"
+  },
+  "orden": [
+    "portada",
+    "editorial",
+    "columna-2",
+    "columna-3",
+    "columna-4",
+    "columna-5",
+    "crucigrama",
+    "tira",
+    "agenda"
+  ]
+}
