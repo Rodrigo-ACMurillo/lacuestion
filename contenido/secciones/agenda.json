@@ -49,13 +49,43 @@
   ],
   "cronograma": {
     "titulo": "Cronograma académico",
-    "encabezados": ["Sesión", "Fecha", "Columna y problema social", "Teoría y autores"],
+    "encabezados": [
+      "Sesión",
+      "Fecha",
+      "Columna y problema social",
+      "Teoría y autores"
+    ],
     "filas": [
-      ["<strong>1</strong>", "<strong>8/9/2026</strong>", "Columna 1: editorial general. Columna 2: análisis teórico-metodológico", "Lectura base: Francisco M. Suárez (CIDES)"],
-      ["<strong>2</strong>", "<strong>15/9/2026</strong>", "Columna 3: habitantes de calle en corredores urbanos", "Desarrollo Humano: Sen y Nussbaum"],
-      ["<strong>3</strong>", "<strong>22/9/2026</strong>", "Columna 4: desplazamiento intraurbano por control territorial de combos", "Desorganización Social: Shaw y McKay"],
-      ["<strong>4</strong>", "<strong>29/9/2026</strong>", "Columna 5: niñez trabajando en plazas de mercado y semáforos", "Reproducción Social: Bourdieu y Passeron"],
-      ["<strong>5</strong>", "<strong>6/10/2026</strong>", "Sustentación", "—"]
+      [
+        "<strong>1</strong>",
+        "<strong>8/9/2026</strong>",
+        "Columna 1: editorial general. Columna 2: análisis teórico-metodológico",
+        "Lectura base: Francisco M. Suárez (CIDES)"
+      ],
+      [
+        "<strong>2</strong>",
+        "<strong>15/9/2026</strong>",
+        "Columna 3: habitantes de calle en corredores urbanos",
+        "Desarrollo Humano: Sen y Nussbaum"
+      ],
+      [
+        "<strong>3</strong>",
+        "<strong>22/9/2026</strong>",
+        "Columna 4: desplazamiento intraurbano por control territorial de combos",
+        "Desorganización Social: Shaw y McKay"
+      ],
+      [
+        "<strong>4</strong>",
+        "<strong>29/9/2026</strong>",
+        "Columna 5: niñez trabajando en plazas de mercado y semáforos",
+        "Reproducción Social: Bourdieu y Passeron"
+      ],
+      [
+        "<strong>5</strong>",
+        "<strong>6/10/2026</strong>",
+        "Sustentación",
+        "—"
+      ]
     ]
   },
   "cartas": {

@@ -16,11 +16,26 @@
   "recuadro": {
     "titulo": "Mesa de redacción",
     "cargos": [
-      { "titulo": "Dirección editorial", "texto": "[Nombre y apellido del integrante]" },
-      { "titulo": "Edición y corrección de estilo", "texto": "[Nombre y apellido del integrante]" },
-      { "titulo": "Investigación y verificación de fuentes", "texto": "[Nombre y apellido del integrante]" },
-      { "titulo": "Diseño, ilustración y tira cómica", "texto": "[Nombre y apellido del integrante]" },
-      { "titulo": "Curso", "texto": "Problemas sociales contemporáneos · Docente: Allison Paola Escobar · Trabajo grupal" }
+      {
+        "titulo": "Dirección editorial",
+        "texto": "Martha Prieto"
+      },
+      {
+        "titulo": "Edición y corrección de estilo",
+        "texto": "Rodrigo Castillo"
+      },
+      {
+        "titulo": "Investigación y verificación de fuentes",
+        "texto": "Martha Prieto"
+      },
+      {
+        "titulo": "Diseño, ilustración y tira cómica",
+        "texto": "Rodrigo Castillo"
+      },
+      {
+        "titulo": "Curso",
+        "texto": "Problemas sociales contemporáneos · Docente: Allison Paola Escobar · Trabajo grupal"
+      }
     ]
   },
   "bloques": [

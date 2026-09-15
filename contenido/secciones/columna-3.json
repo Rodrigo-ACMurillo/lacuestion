@@ -17,9 +17,18 @@
   "glosario": {
     "titulo": "Glosario teórico",
     "terminos": [
-      { "termino": "Capacidades.", "definicion": "Libertades reales de una persona para elegir entre formas de vida que tiene razones para valorar (Sen, 2000)." },
-      { "termino": "Funcionamientos.", "definicion": "Lo que una persona efectivamente logra ser y hacer: estar nutrida, tener techo, trabajar, participar en su comunidad (Sen, 2000)." },
-      { "termino": "Umbral de capacidades centrales.", "definicion": "Mínimo de capacidades —vida, salud e integridad corporal, afiliación, control sobre el propio entorno, entre otras— que una sociedad justa debe garantizar a todas las personas (Nussbaum, 2012)." }
+      {
+        "termino": "Capacidades.",
+        "definicion": "Libertades reales de una persona para elegir entre formas de vida que tiene razones para valorar (Sen, 2000)."
+      },
+      {
+        "termino": "Funcionamientos.",
+        "definicion": "Lo que una persona efectivamente logra ser y hacer: estar nutrida, tener techo, trabajar, participar en su comunidad (Sen, 2000)."
+      },
+      {
+        "termino": "Umbral de capacidades centrales.",
+        "definicion": "Mínimo de capacidades —vida, salud e integridad corporal, afiliación, control sobre el propio entorno, entre otras— que una sociedad justa debe garantizar a todas las personas (Nussbaum, 2012)."
+      }
     ]
   },
   "cronica": [
@@ -35,11 +44,23 @@
   "punto_ciego": [
     "La prensa sensacionalista presenta a los habitantes de calle como amenaza para la seguridad o como imagen de degradación del centro; la política pública tradicional mide su éxito en operativos de «recuperación del espacio público», raciones entregadas o cupos en hogares de paso. Ambas ignoran la <em>agencia</em> de las personas: nadie les pregunta qué vida valoran ni qué obstáculos concretos les impiden salir. Cuando el indicador es cuántas personas se retiraron de un corredor, el programa puede «cumplir» mientras las capacidades siguen intactas en su ausencia."
   ],
-  "pasos": { "titulo": "", "items": [] },
+  "pasos": {
+    "titulo": "",
+    "items": []
+  },
   "datos": [
-    { "cifra": "34.091", "texto": "habitantes de la calle censados en Colombia entre 2017 y 2021 (La República, 2021)" },
-    { "cifra": "9.538", "texto": "personas censadas en Bogotá en 2017 (La República, 2021)" },
-    { "cifra": "+60 %", "texto": "lleva cinco años o más viviendo en la calle (La República, 2021)" }
+    {
+      "cifra": "34.091",
+      "texto": "habitantes de la calle censados en Colombia entre 2017 y 2021 (La República, 2021)"
+    },
+    {
+      "cifra": "9.538",
+      "texto": "personas censadas en Bogotá en 2017 (La República, 2021)"
+    },
+    {
+      "cifra": "+60 %",
+      "texto": "lleva cinco años o más viviendo en la calle (La República, 2021)"
+    }
   ],
   "conclusion": {
     "titulo": "Conclusión · Recomendación desde el Trabajo Social Crítico",

@@ -14,41 +14,71 @@
     {
       "imagen": "imagenes/tira_vineta1.webp",
       "textos": [
-        { "personaje": "", "texto": "1 · Corredor de la avenida del río, 6:00 a. m. Hace cuatro años don Ramiro duerme bajo este puente. Nadie lo ve." }
+        {
+          "personaje": "",
+          "texto": "1 · Corredor de la avenida del río, 6:00 a. m. Hace cuatro años don Ramiro duerme bajo este puente. Nadie lo ve."
+        }
       ]
     },
     {
       "imagen": "imagenes/tira_vineta2.webp",
       "textos": [
-        { "personaje": "Reportera", "texto": "¡Última hora! ¡Crisis en el corredor! ¿Quién tiene la culpa?" },
-        { "personaje": "Don Ramiro", "texto": "¿Crisis? Yo llevo aquí cuatro años..." }
+        {
+          "personaje": "Reportera",
+          "texto": "¡Última hora! ¡Crisis en el corredor! ¿Quién tiene la culpa?"
+        },
+        {
+          "personaje": "Don Ramiro",
+          "texto": "¿Crisis? Yo llevo aquí cuatro años..."
+        }
       ]
     },
     {
       "imagen": "imagenes/tira_vineta3.webp",
       "textos": [
-        { "personaje": "", "texto": "3 · Esa tarde, en rueda de prensa..." },
-        { "personaje": "El doctor Cifra", "texto": "¡Lanzamos Calle Cero! Meta: cero habitantes de calle en 30 días." }
+        {
+          "personaje": "",
+          "texto": "3 · Esa tarde, en rueda de prensa..."
+        },
+        {
+          "personaje": "El doctor Cifra",
+          "texto": "¡Lanzamos Calle Cero! Meta: cero habitantes de calle en 30 días."
+        }
       ]
     },
     {
       "imagen": "imagenes/tira_vineta4.webp",
       "textos": [
-        { "personaje": "Lucía, trabajadora social", "texto": "Salió en el noticiero y ya hay programa: ahora es una «cuestión socialmente problematizada». ¿Alguien le preguntó a don Ramiro?" }
+        {
+          "personaje": "Lucía, trabajadora social",
+          "texto": "Salió en el noticiero y ya hay programa: ahora es una «cuestión socialmente problematizada». ¿Alguien le preguntó a don Ramiro?"
+        }
       ]
     },
     {
       "imagen": "imagenes/tira_vineta5.webp",
       "textos": [
-        { "personaje": "", "texto": "5 · Tres meses después..." },
-        { "personaje": "Don Ramiro", "texto": "Vinieron, me tomaron una foto y se fueron. Dicen que se acabó la plata." }
+        {
+          "personaje": "",
+          "texto": "5 · Tres meses después..."
+        },
+        {
+          "personaje": "Don Ramiro",
+          "texto": "Vinieron, me tomaron una foto y se fueron. Dicen que se acabó la plata."
+        }
       ]
     },
     {
       "imagen": "imagenes/tira_vineta6.webp",
       "textos": [
-        { "personaje": "Lucía", "texto": "El problema no era solo la calle: era un programa sin cobertura real, rígido y sin presupuesto estable. Empecemos por escucharlo." },
-        { "personaje": "Don Ramiro", "texto": "Por fin alguien pregunta." }
+        {
+          "personaje": "Lucía",
+          "texto": "El problema no era solo la calle: era un programa sin cobertura real, rígido y sin presupuesto estable. Empecemos por escucharlo."
+        },
+        {
+          "personaje": "Don Ramiro",
+          "texto": "Por fin alguien pregunta."
+        }
       ]
     }
   ],

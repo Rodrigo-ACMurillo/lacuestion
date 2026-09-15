@@ -17,9 +17,18 @@
   "glosario": {
     "titulo": "Glosario teórico",
     "terminos": [
-      { "termino": "Desorganización social.", "definicion": "Debilitamiento de la capacidad de una comunidad para sostener normas comunes y ejercer control social sobre lo que ocurre en su territorio." },
-      { "termino": "Zona de transición.", "definicion": "Área urbana marcada por pobreza, alta movilidad residencial y heterogeneidad, donde Shaw y McKay hallaron en Chicago las mayores tasas de delincuencia juvenil (Shaw y McKay, 1942)." },
-      { "termino": "Transmisión cultural.", "definicion": "Proceso por el cual prácticas y valores delictivos se aprenden y pasan entre generaciones en barrios con controles comunitarios débiles." }
+      {
+        "termino": "Desorganización social.",
+        "definicion": "Debilitamiento de la capacidad de una comunidad para sostener normas comunes y ejercer control social sobre lo que ocurre en su territorio."
+      },
+      {
+        "termino": "Zona de transición.",
+        "definicion": "Área urbana marcada por pobreza, alta movilidad residencial y heterogeneidad, donde Shaw y McKay hallaron en Chicago las mayores tasas de delincuencia juvenil (Shaw y McKay, 1942)."
+      },
+      {
+        "termino": "Transmisión cultural.",
+        "definicion": "Proceso por el cual prácticas y valores delictivos se aprenden y pasan entre generaciones en barrios con controles comunitarios débiles."
+      }
     ]
   },
   "cronica": [
@@ -35,11 +44,23 @@
   "punto_ciego": [
     "La prensa sensacionalista narra «guerras de combos» con cifras de muertos y alias de cabecillas; la política pública tradicional responde con operativos, capturas y presencia policial temporal. Ambas tratan el problema como un asunto de individuos peligrosos. Ignoran que capturar a un jefe no reconstruye las juntas, las redes vecinales ni la confianza que permitirían al barrio regularse sin armas. Y el desplazamiento intraurbano es menos visible que el rural: quien se muda tres comunas más allá no sale en los titulares ni siempre declara."
   ],
-  "pasos": { "titulo": "", "items": [] },
+  "pasos": {
+    "titulo": "",
+    "items": []
+  },
   "datos": [
-    { "cifra": "889", "texto": "personas desplazadas dentro de Medellín entre enero y agosto de 2024 (Personería Distrital de Medellín, 2024)" },
-    { "cifra": "380", "texto": "declaraciones recibidas en ese mismo periodo (Personería Distrital de Medellín, 2024)" },
-    { "cifra": "82", "texto": "personas desplazadas en San Javier, la comuna más afectada (Personería Distrital de Medellín, 2024)" }
+    {
+      "cifra": "889",
+      "texto": "personas desplazadas dentro de Medellín entre enero y agosto de 2024 (Personería Distrital de Medellín, 2024)"
+    },
+    {
+      "cifra": "380",
+      "texto": "declaraciones recibidas en ese mismo periodo (Personería Distrital de Medellín, 2024)"
+    },
+    {
+      "cifra": "82",
+      "texto": "personas desplazadas en San Javier, la comuna más afectada (Personería Distrital de Medellín, 2024)"
+    }
   ],
   "conclusion": {
     "titulo": "Conclusión · Recomendación desde el Trabajo Social Crítico",

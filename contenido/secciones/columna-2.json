@@ -17,9 +17,18 @@
   "glosario": {
     "titulo": "Glosario teórico",
     "terminos": [
-      { "termino": "Problema social.", "definicion": "Condición indeseable que afecta a un número significativo de personas y que se cree corregible mediante la acción colectiva." },
-      { "termino": "Cuestión socialmente problematizada.", "definicion": "Asunto que actores estratégicamente situados logran poner en la agenda pública (Oszlak y O’Donnell, en Suárez, 1989)." },
-      { "termino": "Problema de programa.", "definicion": "Distancia entre lo que un programa debería lograr y su funcionamiento real: cobertura, rigidez, superposición o vulnerabilidad." }
+      {
+        "termino": "Problema social.",
+        "definicion": "Condición indeseable que afecta a un número significativo de personas y que se cree corregible mediante la acción colectiva."
+      },
+      {
+        "termino": "Cuestión socialmente problematizada.",
+        "definicion": "Asunto que actores estratégicamente situados logran poner en la agenda pública (Oszlak y O’Donnell, en Suárez, 1989)."
+      },
+      {
+        "termino": "Problema de programa.",
+        "definicion": "Distancia entre lo que un programa debería lograr y su funcionamiento real: cobertura, rigidez, superposición o vulnerabilidad."
+      }
     ]
   },
   "cronica": [
@@ -46,9 +55,18 @@
     ]
   },
   "datos": [
-    { "cifra": "28,0 %", "texto": "pobreza monetaria nacional en 2025 (DANE, 2026)" },
-    { "cifra": "49 %", "texto": "hogares de Renta Ciudadana en riesgo sin transición (El Tiempo, 2026)" },
-    { "cifra": "49,9 %", "texto": "error de inclusión del Sisbén III frente a la pobreza monetaria en 2015 (DNP, 2016)" }
+    {
+      "cifra": "28,0 %",
+      "texto": "pobreza monetaria nacional en 2025 (DANE, 2026)"
+    },
+    {
+      "cifra": "49 %",
+      "texto": "hogares de Renta Ciudadana en riesgo sin transición (El Tiempo, 2026)"
+    },
+    {
+      "cifra": "49,9 %",
+      "texto": "error de inclusión del Sisbén III frente a la pobreza monetaria en 2015 (DNP, 2016)"
+    }
   ],
   "conclusion": {
     "titulo": "Conclusión · Recomendación desde el Trabajo Social Crítico",

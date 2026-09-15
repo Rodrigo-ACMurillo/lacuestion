@@ -17,9 +17,18 @@
   "glosario": {
     "titulo": "Glosario teórico",
     "terminos": [
-      { "termino": "Capital cultural.", "definicion": "Saberes, formas de hablar, títulos y disposiciones que la escuela valora y que las familias heredan de manera desigual según su posición social." },
-      { "termino": "Violencia simbólica.", "definicion": "Imposición de significados como legítimos que oculta las relaciones de fuerza que los sostienen, de modo que los dominados aceptan su lugar como natural (Bourdieu y Passeron, 1970)." },
-      { "termino": "Arbitrario cultural.", "definicion": "La cultura que la escuela presenta como universal es la de los grupos dominantes, no una cultura superior por naturaleza (Bourdieu y Passeron, 1970)." }
+      {
+        "termino": "Capital cultural.",
+        "definicion": "Saberes, formas de hablar, títulos y disposiciones que la escuela valora y que las familias heredan de manera desigual según su posición social."
+      },
+      {
+        "termino": "Violencia simbólica.",
+        "definicion": "Imposición de significados como legítimos que oculta las relaciones de fuerza que los sostienen, de modo que los dominados aceptan su lugar como natural (Bourdieu y Passeron, 1970)."
+      },
+      {
+        "termino": "Arbitrario cultural.",
+        "definicion": "La cultura que la escuela presenta como universal es la de los grupos dominantes, no una cultura superior por naturaleza (Bourdieu y Passeron, 1970)."
+      }
     ]
   },
   "cronica": [
@@ -35,11 +44,23 @@
   "punto_ciego": [
     "La prensa sensacionalista muestra imágenes de lástima y culpa a los padres; la política pública tradicional responde con operativos para retirar a los niños de los semáforos, sanciones o transferencias condicionadas a la asistencia escolar. Ninguna de las dos pregunta qué ofrece la escuela a esos niños ni por qué la abandonan. Sin la teoría de la reproducción, se exige a las familias más pobres que confíen en una institución que, en la práctica, les confirma cada día que no pertenecen a ella."
   ],
-  "pasos": { "titulo": "", "items": [] },
+  "pasos": {
+    "titulo": "",
+    "items": []
+  },
   "datos": [
-    { "cifra": "302.000", "texto": "niñas, niños y adolescentes en trabajo infantil, último trimestre de 2025 (El Universal, 2026)" },
-    { "cifra": "2,8 %", "texto": "tasa nacional de trabajo infantil (El Universal, 2026)" },
-    { "cifra": "5,2 %", "texto": "tasa en centros poblados y zonas rurales, frente a 1,8 % en cabeceras (El Universal, 2026)" }
+    {
+      "cifra": "302.000",
+      "texto": "niñas, niños y adolescentes en trabajo infantil, último trimestre de 2025 (El Universal, 2026)"
+    },
+    {
+      "cifra": "2,8 %",
+      "texto": "tasa nacional de trabajo infantil (El Universal, 2026)"
+    },
+    {
+      "cifra": "5,2 %",
+      "texto": "tasa en centros poblados y zonas rurales, frente a 1,8 % en cabeceras (El Universal, 2026)"
+    }
   ],
   "conclusion": {
     "titulo": "Conclusión · Recomendación desde el Trabajo Social Crítico",
