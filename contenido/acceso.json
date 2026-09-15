@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "algoritmo": "PBKDF2-SHA256 + AES-GCM-256",
+  "iteraciones": 600000,
+  "sal": "vfxB1fB6e4CY3LK7RBQnMw==",
+  "iv": "xyrXUZ54qz6lHrKv",
+  "datos": "miQf1pZ3NX54q4tvFs/Wen0iiHtqMElc7msuPEAUT5IZoCY0yW5AKtygx6NYaUiNboN8LUEvK38ixEpKe3ei0rcsIX6wSDVN1SncdYB2LiKgWYLKIjxW+CT9pUEERYpD7zrPc8/n1mKNTkkHq0iHaXsl6/tN0eSarSdXcoLoJ0Z/jZDTxmm2aGZhmJdN0qwxrzE7RCc9z4LgscpIDTJ7xe1F6xvV0qKiOqXPNeQZLthLi8SKMpjsiy/qq2Oy/ZuQF8z/bA=="
+}
