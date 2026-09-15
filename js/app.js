@@ -70,10 +70,8 @@ function pintarCabecera(compacta) {
 function pintarMenu(activa) {
   const visibles = estado.edicion.orden.map((id) => estado.secciones[id]).filter((s) => s && s.visible !== false);
   $("#menu").innerHTML = `
-    <ul>${visibles.map((s) => `<li><a href="#/s/${escapar(s.id)}"${s.id === activa ? ' class="activo" aria-current="page"' : ""}>${escapar(textoPlano(s.menu || s.id))}</a></li>`).join("")}</ul>
-    <div class="menu-herr">
-      <a class="boton" href="#/edicion"${activa === "#edicion" ? ' aria-current="page"' : ""}>Edición completa</a>
-    </div>`;
+    <ul>${visibles.map((s) => `<li><a href="#/s/${escapar(s.id)}"${s.id === activa ? ' class="activo" aria-current="page"' : ""}>${escapar(textoPlano(s.menu || s.id))}</a></li>`).join("")}
+      <li class="menu-extra"><a href="#/edicion"${activa === "#edicion" ? ' class="activo" aria-current="page"' : ""}>Edición completa</a></li></ul>`;
 }
 
 function pintarPie() {

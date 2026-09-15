@@ -34,22 +34,25 @@ El orden del menú y los datos de la cabecera están en `contenido/edicion.json`
 Quien abre el enlace normal —por ejemplo, el docente— ve únicamente el periódico: no hay botones
 ni herramientas de edición. Para editar se entra por una dirección especial y con la **clave del grupo**.
 
-### Configuración inicial (una sola vez, la hace el administrador del repositorio)
+### Configuración inicial (solo el administrador, en su computador)
+
+El token de GitHub **nunca se escribe en la página**. Se configura con un script local
+(`_build/configurar_acceso.py`, que no se sube al repositorio):
 
 1. En GitHub: *foto de perfil → Settings → Developer settings → Personal access tokens → Fine-grained tokens →
-   Generate new token*. Ponle **fecha de vencimiento** (por ejemplo, el fin del semestre), en *Repository access*
-   elige **Only select repositories → lacuestion** y en *Permissions → Contents* marca **Read and write**.
-2. Abre `https://TU-USUARIO.github.io/lacuestion/?editar` y pulsa **Soy el administrador**.
-3. Escribe usuario, repositorio, rama (`main`) y el token. Más abajo escribe la **clave del grupo**
-   (una frase de al menos 12 caracteres) y pulsa **Guardar la clave del grupo en GitHub**.
-   Se crea `contenido/acceso.json` con la conexión **cifrada** con esa clave.
-4. Comparte con tus compañeros, por un canal privado, la dirección terminada en `?editar` y la clave.
-   Al docente envíale el enlace **sin** `?editar`.
+   Generate new token*. Ponle **fecha de vencimiento**, en *Repository access* elige **Only select repositories →
+   lacuestion** y en *Permissions → Contents* marca **Read and write**.
+2. En la carpeta del proyecto ejecuta `python _build/configurar_acceso.py` (requiere `pip install cryptography`).
+   Pega el token y escribe la clave del grupo (mínimo 12 caracteres); no se ven al escribir.
+3. El script comprueba el token, crea `contenido/acceso.json` con la conexión **cifrada** y ofrece subirlo a GitHub.
+4. Comparte con tus compañeros, por un canal privado, la clave del grupo. Al docente, solo el enlace del periódico.
+
+Para cambiar la clave, renovar el token o quitarle el acceso a alguien, vuelve a ejecutar el script.
 
 ### Para los compañeros (sin cuenta de GitHub)
 
-1. Abrir la dirección terminada en `?editar` (o pulsar **Ctrl + Mayús + E** estando en el periódico).
-2. Escribir la clave del grupo → **Entrar**.
+1. En el periódico, pulsar **Ctrl + Mayús + E** (o abrir la dirección terminada en `?editar`).
+2. Escribir la clave del grupo → **Entrar**. Con «Recordar» marcado no se vuelve a pedir en ese navegador.
 3. Editar:
    - **Textos:** clic y escribir. Con la barra inferior: **N** negrita, *K* cursiva, 🔗 enlace.
    - **Listas** (párrafos, conceptos, datos, viñetas, tarjetas, referencias…): **+ Añadir**; al pasar el ratón
@@ -66,7 +69,7 @@ ni herramientas de edición. Para editar se entra por una dirección especial y 
 - `contenido/acceso.json` es público pero está cifrado: sin la clave no sirve. Una clave larga y poco obvia
   es lo que lo protege; no la publiques en grupos abiertos.
 - El token solo puede escribir en este repositorio y vence en la fecha elegida. Si la clave se filtra o
-  alguien sale del grupo, repite el paso 3 con una clave nueva (y, si quieres, un token nuevo).
+  alguien sale del grupo, vuelve a ejecutar el script con una clave nueva (y, si quieres, un token nuevo).
 - Al terminar el curso, revoca el token en GitHub.
 
 ### Otras formas de actualizar

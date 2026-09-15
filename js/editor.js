@@ -3,8 +3,8 @@
 import { limpiar, leer, escribir, clonar, slug, retrasar, escapar, textoPlano } from "./util.js";
 import { TIPOS } from "./render.js";
 import { PLANTILLAS, elementoNuevo } from "./plantillas.js";
-import { prepararArchivos, crearZip, publicarEnGitHub, probarConexion, detectarRepositorio } from "./github.js";
-import { cifrarAcceso, abrirAcceso } from "./acceso.js";
+import { prepararArchivos, crearZip, publicarEnGitHub, detectarRepositorio } from "./github.js";
+import { abrirAcceso } from "./acceso.js";
 
 const CLAVE_GITHUB = "la-cuestion:github";
 const MARCADORES = {
@@ -320,77 +320,24 @@ function guardarConfig(config, recordarToken) {
   } catch { /* sin almacenamiento: la configuración dura solo esta página */ }
 }
 
-function dialogoGitHub(despues) {
-  const c = leerConfig();
-  const dlg = dialogo("Administrador · Conexión con GitHub", `
-    <p class="ayuda">Solo para quien administra el repositorio. Crea un token <em>fine-grained</em> con permiso
-      <em>Contents: Read and write</em> únicamente sobre este repositorio y con fecha de vencimiento.</p>
-    <label for="gh-propietario">Usuario u organización</label><input id="gh-propietario" type="text" value="${escapar(c.propietario || "")}" placeholder="mi-usuario">
-    <label for="gh-repo">Repositorio</label><input id="gh-repo" type="text" value="${escapar(c.repositorio || "")}" placeholder="lacuestion">
-    <label for="gh-rama">Rama publicada</label><input id="gh-rama" type="text" value="${escapar(c.rama || "main")}">
-    <label for="gh-token">Token</label><input id="gh-token" type="password" value="${escapar(c.token || "")}" placeholder="github_pat_…" autocomplete="off">
-    <label><input id="gh-recordar" type="checkbox"${localStorage.getItem(CLAVE_GITHUB) ? " checked" : ""}> Recordar en este navegador (no lo marques en computadores compartidos)</label>
-    <div class="caja" style="margin-top:1rem">
-      <h3 class="caja-titulo">Clave para la mesa de redacción</h3>
-      <p class="ayuda">Tus compañeros entrarán con <code>?editar</code> y esta clave, sin cuenta de GitHub. La conexión se guarda
-        cifrada en <code>contenido/acceso.json</code>. Usa una frase larga (mínimo 12 caracteres) y compártela solo con el grupo.
-        Para cambiarla o quitarle el acceso a alguien, crea una clave nueva.</p>
-      <label for="gh-clave">Clave del grupo</label><input id="gh-clave" type="password" autocomplete="new-password">
-      <label for="gh-clave2">Repite la clave</label><input id="gh-clave2" type="password" autocomplete="new-password">
-      <p><button class="boton" type="button" data-crear-acceso>Guardar la clave del grupo en GitHub</button></p>
-    </div>
-    <p id="gh-resultado" aria-live="polite"></p>`,
-    `<button class="boton" type="button" data-probar>Probar conexión</button><button class="boton" type="button" data-cerrar>Cancelar</button>
-     <button class="boton primario" type="button" data-guardar>Guardar y entrar</button>`);
-  const valores = () => ({ propietario: $("#gh-propietario", dlg).value.trim(), repositorio: $("#gh-repo", dlg).value.trim(),
-    rama: $("#gh-rama", dlg).value.trim() || "main", token: $("#gh-token", dlg).value.trim() });
-  dlg.addEventListener("click", async (e) => {
-    const resultado = $("#gh-resultado", dlg);
-    const mostrar = (texto, ok) => { resultado.className = ok === undefined ? "" : ok ? "ok" : "error"; resultado.textContent = texto; };
-    if (e.target.closest("[data-probar]")) {
-      mostrar("Probando…");
-      try { const repo = await probarConexion(valores()); mostrar(`Conexión correcta con ${repo.full_name}.`, true); }
-      catch (error) { mostrar(error.message, false); }
-    }
-    if (e.target.closest("[data-guardar]")) {
-      mostrar("Comprobando el token…");
-      try {
-        await probarConexion(valores());
-        guardarConfig(valores(), $("#gh-recordar", dlg).checked);
-        dlg.close();
-        despues?.();
-      } catch (error) { mostrar(error.message, false); }
-    }
-    const crear = e.target.closest("[data-crear-acceso]");
-    if (crear) {
-      const clave = $("#gh-clave", dlg).value;
-      if (clave.length < 12) return mostrar("La clave del grupo debe tener al menos 12 caracteres.", false);
-      if (clave !== $("#gh-clave2", dlg).value) return mostrar("Las dos claves no coinciden.", false);
-      crear.disabled = true;
-      try {
-        await probarConexion(valores());
-        mostrar("Cifrando la conexión…");
-        const archivo = await cifrarAcceso(valores(), clave);
-        await publicarEnGitHub(valores(), [{ ruta: "contenido/acceso.json", datos: JSON.stringify(archivo, null, 2) + "\n" }],
-          "Configura el acceso de la mesa de redacción", (t) => mostrar(t), false);
-        guardarConfig(valores(), $("#gh-recordar", dlg).checked);
-        mostrar("Clave guardada. En uno o dos minutos tus compañeros podrán entrar con ?editar y la clave del grupo.", true);
-      } catch (error) { mostrar(error.message, false); }
-      crear.disabled = false;
-    }
-  });
+async function cargarAcceso() {
+  try {
+    const respuesta = await fetch(`contenido/acceso.json?v=${Date.now()}`, { cache: "no-store" });
+    return respuesta.ok ? await respuesta.json() : null;
+  } catch { return null; }
 }
 
-function dialogoClave(apiApp, acceso) {
+/** Pide la clave del grupo. Nunca muestra ni pide tokens: esos los configura el administrador fuera del sitio. */
+function dialogoClave(alEntrar, acceso) {
   const configurado = acceso && acceso.datos;
   const dlg = dialogo("Acceso para la mesa de redacción", configurado ? `
-    <p class="ayuda">Escribe la clave del grupo que compartió el administrador del periódico.</p>
+    <p class="ayuda">Escribe la clave del grupo.</p>
     <label for="acc-clave">Clave del grupo</label><input id="acc-clave" type="password" autocomplete="current-password">
-    <label><input id="acc-recordar" type="checkbox"> Recordar en este navegador (no lo marques en computadores compartidos)</label>
+    <label><input id="acc-recordar" type="checkbox" checked> Recordar en este navegador (desmárcalo en computadores compartidos)</label>
     <p id="acc-resultado" class="error" aria-live="polite"></p>` : `
-    <p>El acceso de la mesa de redacción todavía no está configurado.</p>
-    <p class="ayuda">El administrador del repositorio debe entrar una vez con su token y guardar la clave del grupo.</p>`,
-    `<button class="boton" type="button" data-admin>Soy el administrador</button><button class="boton" type="button" data-cerrar>Cancelar</button>
+    <p>El acceso de la mesa de redacción todavía no está activado.</p>
+    <p class="ayuda">Pídele al administrador del periódico que lo configure.</p>`,
+    `<button class="boton" type="button" data-cerrar>${configurado ? "Cancelar" : "Cerrar"}</button>
      ${configurado ? '<button class="boton primario" type="button" data-entrar>Entrar</button>' : ""}`);
   const entrar = async () => {
     const resultado = $("#acc-resultado", dlg);
@@ -402,7 +349,7 @@ function dialogoClave(apiApp, acceso) {
       const config = await abrirAcceso(acceso, $("#acc-clave", dlg).value);
       guardarConfig(config, $("#acc-recordar", dlg).checked);
       dlg.close();
-      activarEditor(apiApp);
+      alEntrar();
     } catch (error) {
       resultado.className = "error";
       resultado.textContent = error.name === "OperationError" ? "La clave no es correcta." : error.message;
@@ -411,13 +358,10 @@ function dialogoClave(apiApp, acceso) {
   };
   $("#acc-clave", dlg)?.focus();
   dlg.addEventListener("keydown", (e) => { if (e.key === "Enter" && e.target.id === "acc-clave") { e.preventDefault(); entrar(); } });
-  dlg.addEventListener("click", (e) => {
-    if (e.target.closest("[data-entrar]")) entrar();
-    if (e.target.closest("[data-admin]")) { dlg.close(); dialogoGitHub(() => activarEditor(apiApp)); }
-  });
+  dlg.addEventListener("click", (e) => { if (e.target.closest("[data-entrar]")) entrar(); });
 }
 
-/** Punto de entrada oculto (?editar o Ctrl+Shift+E): pide la clave del grupo antes de mostrar herramientas. */
+/** Punto de entrada oculto (?editar o Ctrl+Shift+E): solo pide la clave del grupo. */
 export async function solicitarAcceso(apiApp) {
   api = apiApp;
   const url = new URL(location.href);
@@ -427,12 +371,7 @@ export async function solicitarAcceso(apiApp) {
   }
   if (apiApp.estado.editando) return;
   if (leerConfig().token || ["localhost", "127.0.0.1"].includes(location.hostname)) return activarEditor(apiApp);
-  let acceso = null;
-  try {
-    const respuesta = await fetch(`contenido/acceso.json?v=${Date.now()}`, { cache: "no-store" });
-    if (respuesta.ok) acceso = await respuesta.json();
-  } catch { /* sin archivo de acceso */ }
-  dialogoClave(apiApp, acceso);
+  dialogoClave(() => activarEditor(apiApp), await cargarAcceso());
 }
 
 function cerrarSesion() {
@@ -441,18 +380,20 @@ function cerrarSesion() {
   avisar("Sesión de editor cerrada en este navegador.");
 }
 
-function dialogoPublicar() {
+async function dialogoPublicar() {
   const config = leerConfig();
-  if (!config.token || !config.propietario || !config.repositorio) return dialogoGitHub(dialogoPublicar);
-  const dlg = dialogo("Publicar en GitHub Pages", `
-    <p>Se publicará la edición completa en <strong>${escapar(config.propietario)}/${escapar(config.repositorio)}</strong> (rama ${escapar(config.rama)}) en un solo commit.</p>
+  if (!config.token || !config.propietario || !config.repositorio) {
+    dialogoClave(dialogoPublicar, await cargarAcceso());      // en el computador local, la clave desbloquea la publicación
+    return;
+  }
+  const dlg = dialogo("Publicar el periódico", `
+    <p>Se publicará la edición completa. El sitio se actualiza en uno o dos minutos.</p>
     <label for="pub-mensaje">Descripción del cambio</label>
     <input id="pub-mensaje" type="text" value="Actualiza el contenido de LA CUESTIÓN">
     <p id="pub-progreso" class="ayuda" aria-live="polite"></p>`,
-    `<button class="boton" type="button" data-config>Cambiar conexión</button><button class="boton" type="button" data-cerrar>Cancelar</button>
+    `<button class="boton" type="button" data-cerrar>Cancelar</button>
      <button class="boton primario" type="button" data-publicar>Publicar</button>`);
   dlg.addEventListener("click", async (e) => {
-    if (e.target.closest("[data-config]")) { dlg.close(); dialogoGitHub(dialogoPublicar); return; }
     const boton = e.target.closest("[data-publicar]");
     if (!boton) return;
     const progreso = $("#pub-progreso", dlg);
@@ -468,7 +409,9 @@ function dialogoPublicar() {
       boton.textContent = "Publicado";
     } catch (error) {
       progreso.className = "error";
-      progreso.textContent = error.message;
+      progreso.textContent = /token|permiso/i.test(error.message)
+        ? "No se pudo publicar: el acceso del grupo venció o fue cambiado. Avísale al administrador."
+        : error.message;
       boton.disabled = false;
     }
   });
@@ -498,7 +441,6 @@ function montarBarra() {
     <button class="boton" type="button" data-accion="deshacer">Deshacer</button>
     <span class="separador"></span><span class="estado-edicion" aria-live="polite"></span>
     <button class="boton" type="button" data-accion="descargar">Descargar ZIP</button>
-    <button class="boton" type="button" data-accion="github">GitHub</button>
     <button class="boton primario" type="button" data-accion="publicar">Publicar</button>
     <button class="boton" type="button" data-accion="sesion" title="Olvida la clave en este navegador">Cerrar sesión</button>
     <button class="boton" type="button" data-accion="salir">Salir</button>`;
@@ -515,7 +457,6 @@ function montarBarra() {
     if (accion === "nueva") panelSecciones({ nueva: true });
     if (accion === "deshacer") deshacer();
     if (accion === "descargar") descargarZip().catch((error) => avisar(error.message, true));
-    if (accion === "github") dialogoGitHub();
     if (accion === "publicar") dialogoPublicar();
     if (accion === "salir") desactivarEditor();
     if (accion === "sesion") cerrarSesion();
