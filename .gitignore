@@ -1,3 +1,20 @@
+# Archivos de trabajo local: se quedan en el computador y no se publican en GitHub Pages
 LA_CUESTION_periodico.docx
 LA_CUESTION_vista_previa.pdf
 LEEME.txt
+_build/
+insumos_literarios/
+
+# Versiones de escritorio de fuentes e imágenes (la web usa .woff2 y .webp)
+fuentes/*.ttf
+fuentes/instalar_fuentes.ps1
+imagenes/*.png
+
+# Sistema operativo, editores y Python
+__pycache__/
+*.pyc
+~$*
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
