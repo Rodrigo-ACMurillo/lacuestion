@@ -9,9 +9,9 @@
     "enlace": "crucigrama"
   },
   "principal": {
-    "imagen": "imagenes/portada_principal.webp",
-    "pie": "Anochecer en un corredor urbano del Valle de Aburrá: bajo el viaducto duerme un habitante de calle y en el semáforo un niño vende dulces.",
-    "credito": "Ilustración: LA CUESTIÓN",
+    "imagen": "imagenes/subidas/d4e522383921c7eb.webp",
+    "pie": "Anochecer en un corredor urbano de Bogotá: bajo el puente duerme un habitante de calle y en el algún semáforo un niño venderá dulces.",
+    "credito": "Ilustración: LA CUESTIÓN - tomada por martha prieto",
     "antetitulo": "Problemas sociales y problemas de programas",
     "titulo": "La pobreza baja, pero los programas siguen sin llegar",
     "sumario": [
@@ -20,7 +20,7 @@
       "Francisco M. Suárez explica por qué ambas cosas pueden ser ciertas a la vez"
     ],
     "firma": "Mesa de redacción",
-    "lugar": "Bogotá / Medellín",
+    "lugar": "Bogotá / El Litoral del San Juan",
     "columnas": [
       "La pobreza monetaria en Colombia bajó al 28,0 % en 2025, frente al 31,8 % de 2024, según el DANE. Es la mejor cifra del siglo. Pero en agosto los hogares de Renta Ciudadana supieron que su giro se aplazaba hasta septiembre.",
       "La razón es el paso del Sisbén al Registro Universal de Ingresos (RUI), reglamentado por el Decreto 662 de 2026. Prosperidad Social advirtió que aplicarlo sin transición podría afectar a cerca del 49 % de los hogares.",
@@ -52,14 +52,14 @@
       "etiqueta": "Editorial · Público objetivo",
       "titulo": "Para quién escribimos LA CUESTIÓN",
       "texto": "Estudiantes y profesionales de Trabajo Social, servidores públicos y lectores que quieren entender el país más allá del titular.",
-      "imagen": "",
+      "imagen": "imagenes/subidas/61f8949ebf7ace60.webp",
       "enlace": "editorial"
     },
     {
       "etiqueta": "Editorial · Estilo",
       "titulo": "Opinar con argumentos, no con adjetivos",
       "texto": "Titulares llamativos pero analíticos, fuentes verificables y citación en normas APA.",
-      "imagen": "",
+      "imagen": "imagenes/subidas/ab3b8877efe05a63.webp",
       "enlace": "editorial"
     },
     {
