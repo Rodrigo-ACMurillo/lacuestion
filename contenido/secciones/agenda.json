@@ -12,12 +12,39 @@
   "tarjetas": [
     {
       "imagen": "imagenes/tira_vineta5.webp",
-      "fecha": "8 de septiembre · Columna 2",
+      "fecha": "8 de septiembre · Problemas Sociales",
       "titulo": "El programa también es el problema",
       "teoria": "Lectura base · Francisco M. Suárez (CIDES)",
       "texto": "La pobreza baja en las cifras mientras la transición del Sisbén al RUI pone en riesgo las transferencias de miles de hogares.",
       "pregunta": "¿Cuándo un programa social se convierte, él mismo, en un problema?",
       "enlace": "columna-2"
+    },
+    {
+      "imagen": "",
+      "fecha": "15 de septiembre · Corredores Urbanos",
+      "titulo": "Título",
+      "teoria": "Teoría",
+      "texto": "Resumen.",
+      "pregunta": "¿Pregunta?",
+      "enlace": "columna-3"
+    },
+    {
+      "imagen": "",
+      "fecha": "22 de septiembre · Corredores Urbanos",
+      "titulo": "Título",
+      "teoria": "Teoría",
+      "texto": "Resumen.",
+      "pregunta": "¿Pregunta?",
+      "enlace": ""
+    },
+    {
+      "imagen": "",
+      "fecha": "29 de septiembre · Corredores Urbanos",
+      "titulo": "Título",
+      "teoria": "Teoría",
+      "texto": "Resumen.",
+      "pregunta": "¿Pregunta?",
+      "enlace": ""
     }
   ],
   "cronograma": {
@@ -65,7 +92,7 @@
     "titulo": "Cartas a la redacción",
     "parrafos": [
       "¿Conoces un programa social que llegó tarde, llegó mal o nunca llegó? Escríbenos: la próxima cuestión puede salir de tu barrio.",
-      "<strong>Correo:</strong> [correo del grupo]",
+      "<strong>Correo:</strong> rcastillo@cenda.edu.co",
       "<strong>Cómo citar:</strong> Mesa de redacción. (2026). <em>LA CUESTIÓN</em>, (1). Curso Problemas sociales contemporáneos."
     ]
   },

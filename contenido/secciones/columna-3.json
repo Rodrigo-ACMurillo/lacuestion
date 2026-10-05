@@ -1,10 +1,10 @@
 {
   "tipo": "columna",
-  "menu": "Columna 3 · Calle",
+  "menu": "Corredores Urbanos",
   "visible": true,
   "cintillo": {
     "seccion": "Análisis",
-    "detalle": "Columna 3 · Desarrollo humano",
+    "detalle": "Desarrollo humano",
     "derecha1": "Amartya Sen · Martha Nussbaum",
     "derecha2": "Sesión 2 · 15 de septiembre de 2026"
   },
