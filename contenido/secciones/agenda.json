@@ -20,31 +20,31 @@
       "enlace": "columna-2"
     },
     {
-      "imagen": "",
-      "fecha": "15 de septiembre · Corredores Urbanos",
-      "titulo": "Título",
-      "teoria": "Teoría",
-      "texto": "Resumen.",
-      "pregunta": "¿Pregunta?",
+      "imagen": "imagenes/miniatura_calle.webp",
+      "fecha": "15 de septiembre · Habitantes de calle",
+      "titulo": "La calle no es solo un lugar: es la ausencia de libertades reales",
+      "teoria": "Teoría del Desarrollo Humano · Amartya Sen y Martha Nussbaum",
+      "texto": "Más de 34.000 personas viven en calle en Colombia. El enfoque de capacidades trasciende la asistencia básica y analiza qué libertades y funcionamientos reales tienen para elegir la vida que valoran.",
+      "pregunta": "¿Qué libertades reales y funcionamientos niega la ciudad a las personas en situación de calle?",
       "enlace": "columna-3"
     },
     {
-      "imagen": "",
-      "fecha": "22 de septiembre · Corredores Urbanos",
-      "titulo": "Título",
-      "teoria": "Teoría",
-      "texto": "Resumen.",
-      "pregunta": "¿Pregunta?",
-      "enlace": ""
+      "imagen": "imagenes/miniatura_combos.webp",
+      "fecha": "22 de septiembre · Desplazamiento intraurbano",
+      "titulo": "Fronteras invisibles: cuando el barrio expulsa a sus propios vecinos",
+      "teoria": "Teoría de la Desorganización Social · Clifford R. Shaw y Henry D. McKay",
+      "texto": "Cientos de familias son desplazadas en Medellín por combos armados. La teoría revela que el problema no radica en los residentes, sino en el debilitamiento de los lazos comunitarios y el control social.",
+      "pregunta": "¿Por qué el control armado persiste en los mismos territorios a pesar de la captura de cabecillas?",
+      "enlace": "columna-4"
     },
     {
-      "imagen": "",
-      "fecha": "29 de septiembre · Corredores Urbanos",
-      "titulo": "Título",
-      "teoria": "Teoría",
-      "texto": "Resumen.",
-      "pregunta": "¿Pregunta?",
-      "enlace": ""
+      "imagen": "imagenes/miniatura_ninez.webp",
+      "fecha": "29 de septiembre · Trabajo infantil",
+      "titulo": "La niñez que hereda la plaza de mercado",
+      "teoria": "Teoría de la Reproducción Social · Pierre Bourdieu y Jean-Claude Passeron",
+      "texto": "Más de 300.000 menores laboran en el país. La reproducción social expone cómo la escuela convierte la desigualdad de capital cultural de origen en supuesto fracaso y mérito individual.",
+      "pregunta": "¿De qué manera el sistema educativo legitima y reproduce la desigualdad de clase en lugar de superarla?",
+      "enlace": "columna-5"
     }
   ],
   "cronograma": {
@@ -99,10 +99,15 @@
   "titulo_referencias": "Referencias",
   "referencias": [
     "Bourdieu, P., y Passeron, J.-C. (1970). <em>La reproduction: Éléments pour une théorie du système d’enseignement</em>. Les Éditions de Minuit.",
+    "Congreso de la República de Colombia. (2013). <em>Ley 1641 de 2013, por la cual se establecen los lineamientos para la formulación de la política pública social para habitantes de la calle</em>.",
+    "Departamento Administrativo Nacional de Estadística [DANE]. (2021). <em>Censo de Habitantes de la Calle (CHC)</em>. https://www.dane.gov.co/index.php/estadisticas-por-tema/demografia-y-poblacion/censo-habitantes-de-la-calle",
     "Departamento Administrativo Nacional de Estadística [DANE]. (2026, 12 de junio). <em>Pobreza monetaria en Colombia. Año 2025</em> [Boletín técnico]. https://www.dane.gov.co/files/operaciones/PM/bol-PM-2025.pdf",
     "Departamento Nacional de Planeación [DNP]. (2016). <em>Documento CONPES 3877: Declaración de importancia estratégica del Sistema de Identificación de Potenciales Beneficiarios (Sisbén IV)</em>. https://colaboracion.dnp.gov.co/CDT/Conpes/Económicos/3877.pdf",
     "El Tiempo. (2026, 28 de agosto). Reprograman pagos de Renta Ciudadana y Devolución del IVA en septiembre de 2026 por revisión técnica del RUI. <em>El Tiempo</em>.",
+    "El Universal. (2026, 12 de junio). Trabajo infantil en Colombia afectó a 302.000 menores en 2025. <em>El Universal</em>. https://www.eluniversal.com.co/colombia/2026/06/12/trabajo-infantil-en-colombia-afecto-a-302000-menores-en-2025/",
+    "La República. (2021). Entre 2017 y 2021 se censaron 34.091 habitantes de calle en el territorio nacional. <em>La República</em>. https://www.larepublica.co/economia/entre-2017-y-2021-se-censaron-34091-habitantes-de-calle-en-el-territorio-nacional-3274417",
     "Nussbaum, M. C. (2012). <em>Crear capacidades: Propuesta para el desarrollo humano</em>. Paidós.",
+    "Personería Distrital de Medellín. (2024, 24 de septiembre). <em>889 personas han sido víctimas de desplazamiento intraurbano en 2024</em>. https://www.personeriamedellin.gov.co/889-personas-han-sido-victimas-de-desplazamiento-intraurbano-en-2024/",
     "Sen, A. (2000). <em>Desarrollo y libertad</em>. Planeta.",
     "Shaw, C. R., y McKay, H. D. (1942). <em>Juvenile delinquency and urban areas</em>. University of Chicago Press.",
     "Suárez, F. M. (1989). <em>Problemas sociales y problemas de programas sociales masivos</em>. Centro Interamericano para el Desarrollo Social (CIDES); CEPAL. https://repositorio.cepal.org/handle/11362/33446"
