@@ -132,11 +132,38 @@ function columna(s) {
         ${T("etiquetas.datos", et.datos, "h3", "caja-titulo")}
         ${L("datos", s.datos, (x, r) => `<div class="dato" data-item="${r}">${T(`${r}.cifra`, x.cifra, "span", "dato-cifra")}${T(`${r}.texto`, x.texto)}</div>`)}
       </div>
+      ${renderAnuncio(s.anuncio)}
     </aside>
   </div>
   <div class="caja-conclusion">${T("conclusion.titulo", c.titulo, "h2", "caja-titulo")}<div class="cuerpo">${parrafos("conclusion.parrafos", c.parrafos)}</div></div>
   ${T("etiquetas.fuentes", et.fuentes, "h2", "caja-titulo bloque-titulo")}
   ${L("fuentes", s.fuentes, (x, r) => T(r, x, "li", "", ` data-item="${r}"`), { etiqueta: "ol", clase: "fuentes" })}`;
+}
+
+function renderAnuncio(a) {
+  if (a && a.visible === false) return "";
+  const an = a || {
+    etiqueta: "Espacio editorial",
+    titulo: "Publica con nosotros",
+    texto: "¿Tienes un artículo, investigación de campo o columna de análisis social? LA CUESTIÓN abre sus páginas a nuevas voces.",
+    contacto: "rcastillo@cenda.edu.co",
+    lema: "Mesa de redacción · Trabajo Social Crítico"
+  };
+  return `<aside class="anuncio-periodico" aria-label="Aviso editorial">
+    <div class="anuncio-marco">
+      <div class="anuncio-cabecera">
+        ${T("anuncio.etiqueta", an.etiqueta, "span", "anuncio-etiqueta")}
+      </div>
+      <div class="anuncio-adorno" aria-hidden="true">★ ★ ★</div>
+      ${T("anuncio.titulo", an.titulo, "h4", "anuncio-titulo")}
+      ${T("anuncio.texto", an.texto, "p", "anuncio-texto")}
+      <div class="anuncio-caja-contacto">
+        <span class="anuncio-icono" aria-hidden="true">✉</span>
+        <a class="anuncio-contacto" href="mailto:${escapar(an.contacto || "rcastillo@cenda.edu.co")}">${T("anuncio.contacto", an.contacto, "span")}</a>
+      </div>
+      ${T("anuncio.lema", an.lema, "p", "anuncio-lema")}
+    </div>
+  </aside>`;
 }
 
 function crucigrama(s) {

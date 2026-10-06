@@ -23,6 +23,13 @@ export const PLANTILLAS = {
     punto_ciego: ["El punto ciego: ¿qué ignoran la prensa sensacionalista o la política pública tradicional al no usar esta teoría?"],
     pasos: { titulo: "", items: [] },
     datos: [{ cifra: "00 %", texto: "dato clave con su fuente (Autor, año)" }],
+    anuncio: {
+      etiqueta: "Espacio editorial",
+      titulo: "Publica con nosotros",
+      texto: "¿Tienes un artículo, investigación de campo o columna de análisis social? LA CUESTIÓN abre sus páginas a nuevas voces.",
+      contacto: "rcastillo@cenda.edu.co",
+      lema: "Mesa de redacción · Trabajo Social Crítico"
+    },
     conclusion: { titulo: "Conclusión · Recomendación desde el Trabajo Social Crítico",
       parrafos: ["Recomendación técnica, ética y operativa de intervención, coherente con la teoría analizada."] },
     fuentes: ["Apellido, N. (Año). <em>Título de la obra o informe</em>. Editorial o entidad. https://…"],

@@ -62,6 +62,13 @@
       "texto": "lleva cinco años o más viviendo en la calle (La República, 2021)"
     }
   ],
+  "anuncio": {
+    "etiqueta": "Tribuna abierta",
+    "titulo": "Publica con nosotros",
+    "texto": "¿Trabajas con habitantes de calle, organizaciones de base o defiendes el enfoque de capacidades? Envíanos tu columna o reporte de campo.",
+    "contacto": "rcastillo@cenda.edu.co",
+    "lema": "Mesa de redacción · Por los derechos humanos"
+  },
   "conclusion": {
     "titulo": "Conclusión · Recomendación desde el Trabajo Social Crítico",
     "parrafos": [

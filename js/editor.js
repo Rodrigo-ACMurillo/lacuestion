@@ -11,6 +11,7 @@ const MARCADORES = {
   titulo: "Titular", antetitulo: "Antetítulo", subtitulo: "Subtítulo", entradilla: "Entradilla", firma: "Firma",
   pie: "Pie de foto", cita: "Cita destacada", ladillo: "Subtítulo interno", texto: "Texto", personaje: "Personaje (vacío = narrador)",
   termino: "Concepto", definicion: "Definición", cifra: "Cifra", pregunta: "Pregunta guía", palabra: "PALABRA", pista: "Pista",
+  contacto: "Contacto o correo", lema: "Lema institucional", etiqueta: "Etiqueta",
 };
 
 let api = null;
