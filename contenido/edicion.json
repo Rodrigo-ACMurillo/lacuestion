@@ -1,17 +1,20 @@
 {
   "periodico": {
-    "numero": "01",
-    "datos": "Fundado en 2026<br>Año I · Número 1",
+    "numero": "02",
+    "datos": "Fundado en 2026<br>Año I · Número 2",
     "nombre": "LA CUESTIÓN",
     "lema": "El periódico de análisis social",
     "edicion": "Edición digital · Colombia",
-    "dia": "Martes",
-    "fecha": "15 de septiembre de 2026",
-    "pie": "LA CUESTIÓN · Actividad 1 · Problemas sociales contemporáneos · Docente: Allison Paola Escobar<br>Ilustraciones y tira cómica originales de la mesa de redacción · Tipografías libres (SIL Open Font License): Newsreader y Oswald"
+    "dia": "Lunes",
+    "fecha": "2 de noviembre de 2026",
+    "pie": "LA CUESTIÓN · Actividad 1 y 2 · Problemas sociales contemporáneos · Docente: Allison Paola Escobar<br>Mesa de redacción: Martha Isabel Prieto & Rodrigo Antonio Castillo · Tipografías libres: Newsreader y Oswald"
   },
   "orden": [
     "portada",
     "editorial",
+    "columna-suicidio",
+    "columna-genero",
+    "columna-etiquetamiento",
     "columna-2",
     "columna-3",
     "columna-4",
