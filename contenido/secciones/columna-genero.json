@@ -1,0 +1,96 @@
+{
+  "tipo": "columna",
+  "menu": "Justicia y Género",
+  "visible": true,
+  "cintillo": {
+    "seccion": "Análisis",
+    "detalle": "Teoría feminista y de género",
+    "derecha1": "Simone de Beauvoir · Judith Butler · Silvia Federici",
+    "derecha2": "Sesión 2 · 20 de octubre de 2026"
+  },
+  "antetitulo": "Violencia sexual · Barreras de acceso a la justicia",
+  "titulo": "«¿Usted qué hacía sola a esa hora?»: la justicia que sospecha de la víctima antes que del agresor",
+  "subtitulo": "En municipios como Soacha y en las periferias del país, denunciar una agresión sexual suele terminar en el archivo del caso y en reproches morales contra la mujer. Las lecturas de Simone de Beauvoir, Judith Butler y Silvia Federici explican por qué las leyes y los juzgados siguen funcionando con una lógica machista.",
+  "firma": "Mesa de redacción · Soacha / Cundinamarca",
+  "imagen": "imagenes/miniatura_calle.webp",
+  "pie": "Un paradero de transporte público solitario en la noche: el sistema judicial juzga el tránsito de las mujeres en el espacio público antes de sancionar la violencia de los agresores.",
+  "glosario": {
+    "titulo": "Glosario teórico",
+    "terminos": [
+      {
+        "termino": "El «segundo sexo» (Simone de Beauvoir / T. López, 2011).",
+        "definicion": "Plantea que la sociedad toma al hombre como el modelo de lo normal y racional, mientras que a la mujer la define como algo secundario e inferior («lo Otro»). En los estrados judiciales la palabra masculina suele tener más peso que el testimonio de las mujeres."
+      },
+      {
+        "termino": "El libreto del género (Judith Butler / T. López, 2011).",
+        "definicion": "Butler explica que el género no es algo biológico con lo que nacemos, sino una serie de normas y comportamientos que la sociedad nos obliga a repetir. En el sistema penal, esto sirve para juzgar si una mujer se comportó como una «víctima creíble» o si se salió del molde."
+      },
+      {
+        "termino": "Disciplinamiento del cuerpo femenino (Silvia Federici / J. López Hernández, 2022).",
+        "definicion": "Muestra cómo a lo largo de la historia se ha usado la violencia física y la falta de protección legal para someter a las mujeres al trabajo del hogar y a las tareas de cuidado no remuneradas, castigando a las que desafían ese encierro."
+      }
+    ]
+  },
+  "cronica": [
+    "En comunas populares de Soacha como Cazucá o Compartir, y en los barrios periféricos de las ciudades colombianas, acudir a una Comisaría de Familia o a una Unidad de Reacción Inmediata (URI) para denunciar una agresión sexual es el comienzo de un calvario burocrático. Según informes de organizaciones como Sisma Mujer y balances de la propia Fiscalía, más del 85 % de los casos por violencia sexual quedan archivados o sin ningún avance en los despachos judiciales.",
+    "El problema no es solo la demora de los trámites. Cuando una mujer reúne el valor para denunciar, se estrella contra un sistema que desconfía de ella de entrada. En municipios con pocos recursos, las comisarías están desbordadas y casi nunca hay peritos de Medicina Legal disponibles a tiempo para tomar muestras biológicas.",
+    "Lo más grave ocurre en las primeras entrevistas con policías judiciales, fiscales y defensores: las preguntas no se centran en el agresor, sino en la conducta de ella. Le preguntan qué ropa llevaba puesta, por qué andaba sola de noche en un paradero de busetas, si había tomado licor o por qué no gritó para pedir auxilio. Aunque la Ley 1257 de 2008 prohíbe revictimizar a las mujeres, en la práctica el Sistema Penal Acusatorio sigue funcionando como un tribunal moral donde la denunciante tiene que demostrar que es una «mujer decente» para que le crean."
+  ],
+  "lente": [
+    "La impunidad en los delitos sexuales no ocurre por casualidad ni por simple falta de empleados en los juzgados. Las teorías feministas del curso permiten entender que las instituciones del Estado reproducen la misma desigualdad que existe en la calle.",
+    "Simone de Beauvoir (analizada por Teresa López, 2011) escribió que «no se nace mujer, se llega a serlo» y explicó que en nuestra cultura el hombre se piensa a sí mismo como el centro del mundo, mientras a la mujer se la trata como «el segundo sexo», un ser incompleto y subordinado. En los juzgados esa idea sigue viva: el derecho fue creado históricamente por varones, por lo que la palabra de una mujer arranca con sospecha de duda o exageración, y solo le creen si llega con marcas físicas extremas o al borde de la muerte.",
+    "A esto se suma lo que descubrió Judith Butler (T. López, 2011) sobre el género. Para Butler, el género es como un libreto que la sociedad nos impone actuar a diario. En el ámbito penal, los funcionarios tienen en la cabeza una imagen rígida de lo que debe ser la «víctima ideal»: una mujer sumisa, que no toma riesgos, que no sale de noche y que se muestra avergonzada. Si la muchacha que denuncia en Soacha estaba en una discoteca con sus amigas, si trabaja en turnos nocturnos o si vive su sexualidad con libertad, el sistema la saca de ese libreto. En lugar de investigar el delito, fiscales y jueces terminan juzgando su forma de vida e insinuando que ella misma se buscó el ataque.",
+    "Para completar el cuadro, Silvia Federici (revisada en el texto de Julián López Hernández, 2022) demuestra que este machismo tiene raíces económicas. En Calibán y la bruja, Federici explica que el capitalismo necesitó someter los cuerpos de las mujeres por la fuerza para encerrarlas en la casa a cuidar, cocinar y criar gratis a la siguiente generación de trabajadores.",
+    "Ese encierro se logró usando el miedo y la violencia tolerada por el Estado. Hoy pasa algo parecido: cuando la justicia no castiga a los violadores o cuando las autoridades culpan a una mujer por caminar tarde por una calle oscura, el mensaje de fondo es de advertencia y castigo: le recuerdan a todas que la calle no es de ellas y que salir del espacio doméstico las deja sin la protección del Estado."
+  ],
+  "cita": "«No se nace mujer: llega una a serlo. Y en los tribunales penales, el orden patriarcal le exige demostrar que encaja en el libreto de la sumisión para concederle credibilidad»",
+  "punto_ciego": [
+    "La prensa amarillista cubre estas noticias con morbo y sensacionalismo. Hablan de «crímenes pasionales» o muestran a los agresores como si fueran «monstruos aislados» o locos enfermos. Con eso esconden la realidad más cotidiana: la gran mayoría de abusos no los comete un desconocido en un callejón, sino hombres cercanos: parejas, novios, tíos, vecinos o los mismos jefes en el trabajo.",
+    "Por el lado de la política tradicional, la única salida que proponen los políticos en época electoral es subir las penas de cárcel en el Código Penal o pedir cadena perpetua. El gran punto ciego de esa propuesta es creer que el problema se arregla con más leyes en el papel. De nada sirve amenazar con 40 años de prisión si cuando la mujer llega a la URI de Soacha no la quieren atender, le hacen preguntas machistas y archivan la carpeta a los tres meses. El afán por subir penas desvía la atención y no toca la violencia institucional que las víctimas sufren a diario dentro de las oficinas del Estado."
+  ],
+  "pasos": {
+    "titulo": "Articulación conceptual",
+    "items": [
+      "<strong>Alteridad beauvoiriana:</strong> la palabra de la mujer como «segundo sexo» queda subordinada a la presunción de inocencia patriarcal.",
+      "<strong>Performatividad butleriana:</strong> imposición del libreto de la «víctima ideal» como requisito moral para acceder a la justicia.",
+      "<strong>Disciplinamiento de Federici:</strong> la impunidad actúa como advertencia social para controlar el tránsito y la autonomía de las mujeres en el espacio público."
+    ]
+  },
+  "datos": [
+    {
+      "cifra": "85 %",
+      "texto": "de denuncias por delitos sexuales terminan archivadas o sin imputación en la Fiscalía (Sisma Mujer)"
+    },
+    {
+      "cifra": "1",
+      "texto": "perito forense disponible para atender la demanda urgente de cientos de miles de habitantes en periferia"
+    },
+    {
+      "cifra": "90 %",
+      "texto": "de agresores sexuales pertenecen al entorno cercano o conocido de la víctima en Colombia"
+    }
+  ],
+  "anuncio": {
+    "etiqueta": "Espacio editorial",
+    "titulo": "Defensa feminista",
+    "texto": "¿Participas en colectivas de mujeres o acompañas rutas de atención en comisarías y juzgados? Comparte tu denuncia en las páginas de LA CUESTIÓN.",
+    "contacto": "rcastillo@cenda.edu.co",
+    "lema": "Mesa de redacción · Trabajo Social Crítico"
+  },
+  "conclusion": {
+    "titulo": "Conclusión · Recomendación desde el Trabajo Social Crítico",
+    "parrafos": [
+      "Desde el Trabajo Social Crítico entendemos que nuestra labor no puede limitarse a llenar fichas de caracterización o hacer trámites que terminen en carpetas archivadas. Proponemos tres líneas de trabajo aterrizadas a los barrios:",
+      "1. Informes y peritajes sociales sin juzgar la vida de la mujer: Acompañar los procesos judiciales con diagnósticos sociofamiliares que expliquen las relaciones de poder, la dependencia económica y el miedo que vivió la víctima. La meta de estos informes técnicos es frenar los interrogatorios morbosos de los abogados defensores y evitar que la ropa, los horarios o las salidas de la mujer se usen para restarle valor a su denuncia.",
+      "2. Vigilancia comunitaria en comisarías y fiscalías: Articularse con los colectivos de mujeres, juntas de acción comunal y organizaciones de base de Soacha para armar comités de veeduría en las URI y comisarías de familia. Desde ahí se debe hacer seguimiento a la atención diaria y radicar quejas formales cuando un funcionario culpe a una denunciante o dilate la toma de pruebas forenses.",
+      "3. Redes de acogida y sustento económico popular: La justicia penal no da de comer ni saca a una mujer del peligro de inmediato. Como trabajadoras y trabajadores sociales debemos apoyar redes barriales de apoyo mutuo que ofrezcan albergue transitorio y fondos de emergencia comunitarios. Esto permite que una mujer pueda separarse de un agresor y salir del entorno violento sin quedar atrapada por la falta de techo o de dinero para alimentar a sus hijos."
+    ]
+  },
+  "fuentes": [
+    "Corporación Sisma Mujer. (2024). <em>El banquillo de la impunidad: informe sobre el acceso a la justicia de las mujeres víctimas de violencia sexual en Colombia</em>. Sisma Mujer.",
+    "Fiscalía General de la Nación. (2025). <em>Boletín estadístico de seguimiento a investigaciones por delitos sexuales y de género</em>. Imprenta Nacional.",
+    "López, T. (2011). De Simone de Beauvoir a Judith Butler: el género y el sujeto. <em>Pasajes: Revista de pensamiento contemporáneo</em>, (37), 101–107. https://doi.org/10.2307/pasajes.37.101",
+    "López Hernández, J. (2022). Trabajo reproductivo, diferencia sexual y acumulación originaria: un diálogo entre Luce Irigaray y Silvia Federici. <em>Ciencia Política</em>, 17(33), 295–317. https://doi.org/10.15446/cp.v17n33.92505",
+    "Red Nacional de Mujeres. (2024). <em>Barreras institucionales en el Sistema Penal Acusatorio: cuando la justicia culpa a la denunciante</em>. Red Nacional de Mujeres."
+  ]
+}
