@@ -11,11 +11,38 @@
   "titulo": "Las columnas de LA CUESTIÓN",
   "tarjetas": [
     {
+      "imagen": "imagenes/editorial_lente.webp",
+      "fecha": "13 de octubre · Suicidio indígena",
+      "titulo": "Morir de encierro: el suicidio indígena más allá de la depresión",
+      "teoria": "Violencia estructural y Anomia · Galtung, Durkheim y Merton",
+      "texto": "En Chocó y Risaralda, los jóvenes indígenas se quitan la vida bajo el confinamiento bélico. La sociología revela cómo el despojo territorial fractura los marcos colectivos de sentido.",
+      "pregunta": "¿Por qué el suicidio indígena es la expresión de un daño estructural y no un trastorno individual?",
+      "enlace": "columna-suicidio"
+    },
+    {
+      "imagen": "imagenes/miniatura_calle.webp",
+      "fecha": "20 de octubre · Violencia sexual",
+      "titulo": "«¿Usted qué hacía sola a esa hora?»: la justicia que sospecha de la víctima",
+      "teoria": "Teoría feminista y de género · Beauvoir, Butler y Federici",
+      "texto": "En Soacha y la periferia del país, denunciar violencia sexual termina en archivo e interrogatorios machistas. El derecho reproduce la subordinación histórica de los cuerpos femeninos.",
+      "pregunta": "¿Cómo operan los marcos de inteligibilidad judicial para negar la condición de víctima a las mujeres?",
+      "enlace": "columna-genero"
+    },
+    {
+      "imagen": "imagenes/miniatura_combos.webp",
+      "fecha": "27 de octubre · Juventud y bandas",
+      "titulo": "De campanero a delincuente: cómo el estigma y las carpetas del Estado atrapan",
+      "teoria": "Teoría del etiquetamiento · Becker, Lemert y Brea Iglesias et al.",
+      "texto": "Entre Tumaco y Pereira, los adolescentes son cooptados por combos armados. El rechazo escolar y los diagnósticos institucionales consolidan la desviación secundaria.",
+      "pregunta": "¿De qué manera los informes periciales del Estado pueden fabricar la carrera delictiva que dicen prevenir?",
+      "enlace": "columna-etiquetamiento"
+    },
+    {
       "imagen": "imagenes/tira_vineta5.webp",
-      "fecha": "8 de septiembre · Problemas Sociales",
+      "fecha": "8 de septiembre · Políticas públicas",
       "titulo": "El programa también es el problema",
       "teoria": "Lectura base · Francisco M. Suárez (CIDES)",
-      "texto": "La pobreza baja en las cifras mientras la transición del Sisbén al RUI pone en riesgo las transferencias de miles de hogares.",
+      "texto": "La pobreza monetaria cae en las encuestas mientras la transición del Sisbén al RUI pone en riesgo los giros de miles de hogares vulnerables.",
       "pregunta": "¿Cuándo un programa social se convierte, él mismo, en un problema?",
       "enlace": "columna-2"
     },
@@ -23,8 +50,8 @@
       "imagen": "imagenes/miniatura_calle.webp",
       "fecha": "15 de septiembre · Habitantes de calle",
       "titulo": "La calle no es solo un lugar: es la ausencia de libertades reales",
-      "teoria": "Teoría del Desarrollo Humano · Amartya Sen y Martha Nussbaum",
-      "texto": "Más de 34.000 personas viven en calle en Colombia. El enfoque de capacidades trasciende la asistencia básica y analiza qué libertades y funcionamientos reales tienen para elegir la vida que valoran.",
+      "teoria": "Desarrollo Humano · Amartya Sen y Martha Nussbaum",
+      "texto": "Más de 34.000 personas viven en calle en Colombia. El enfoque de capacidades analiza qué libertades y funcionamientos reales tienen para elegir la vida que valoran.",
       "pregunta": "¿Qué libertades reales y funcionamientos niega la ciudad a las personas en situación de calle?",
       "enlace": "columna-3"
     },
@@ -32,8 +59,8 @@
       "imagen": "imagenes/miniatura_combos.webp",
       "fecha": "22 de septiembre · Desplazamiento intraurbano",
       "titulo": "Fronteras invisibles: cuando el barrio expulsa a sus propios vecinos",
-      "teoria": "Teoría de la Desorganización Social · Clifford R. Shaw y Henry D. McKay",
-      "texto": "Cientos de familias son desplazadas en Medellín por combos armados. La teoría revela que el problema no radica en los residentes, sino en el debilitamiento de los lazos comunitarios y el control social.",
+      "teoria": "Desorganización Social · Clifford R. Shaw y Henry D. McKay",
+      "texto": "Cientos de familias son desplazadas en Medellín por combos armados. La teoría revela que el problema radica en el debilitamiento de los lazos comunitarios.",
       "pregunta": "¿Por qué el control armado persiste en los mismos territorios a pesar de la captura de cabecillas?",
       "enlace": "columna-4"
     },
@@ -41,73 +68,84 @@
       "imagen": "imagenes/miniatura_ninez.webp",
       "fecha": "29 de septiembre · Trabajo infantil",
       "titulo": "La niñez que hereda la plaza de mercado",
-      "teoria": "Teoría de la Reproducción Social · Pierre Bourdieu y Jean-Claude Passeron",
-      "texto": "Más de 300.000 menores laboran en el país. La reproducción social expone cómo la escuela convierte la desigualdad de capital cultural de origen en supuesto fracaso y mérito individual.",
-      "pregunta": "¿De qué manera el sistema educativo legitima y reproduce la desigualdad de clase en lugar de superarla?",
+      "teoria": "Reproducción Social · Pierre Bourdieu y Jean-Claude Passeron",
+      "texto": "Más de 300.000 menores laboran en el país. La reproducción social expone cómo la escuela convierte la desigualdad de origen en supuesto mérito individual.",
+      "pregunta": "¿De qué manera el sistema educativo legitima y reproduce la desigualdad de clase?",
       "enlace": "columna-5"
     }
   ],
   "cronograma": {
-    "titulo": "Cronograma académico",
+    "titulo": "Cronograma académico del curso (Problemas sociales contemporáneos)",
     "encabezados": [
       "Sesión",
       "Fecha",
       "Columna y problema social",
-      "Teoría y autores"
+      "Teoría sociológica y autores clave"
     ],
     "filas": [
       [
         "<strong>1</strong>",
-        "<strong>8/9/2026</strong>",
-        "Columna 1: editorial general. Columna 2: análisis teórico-metodológico",
-        "Lectura base: Francisco M. Suárez (CIDES)"
+        "<strong>13/10/2026</strong>",
+        "Columna 1: Flagelo del suicidio en población indígena",
+        "Violencia estructural (Johan Galtung) y Anomia (Émile Durkheim, Robert K. Merton)"
       ],
       [
         "<strong>2</strong>",
-        "<strong>15/9/2026</strong>",
-        "Columna 3: habitantes de calle en corredores urbanos",
-        "Desarrollo Humano: Sen y Nussbaum"
+        "<strong>20/10/2026</strong>",
+        "Columna 2: Mujeres víctimas de violencia sexual sin acceso efectivo a justicia / Cisgénero",
+        "Teoría feminista y de género (Simone de Beauvoir, Judith Butler, Silvia Federici)"
       ],
       [
         "<strong>3</strong>",
-        "<strong>22/9/2026</strong>",
-        "Columna 4: desplazamiento intraurbano por control territorial de combos",
-        "Desorganización Social: Shaw y McKay"
+        "<strong>27/10/2026</strong>",
+        "Columna 3: Reclutamiento de adolescentes por estructuras criminales",
+        "Teoría del etiquetado (Howard Becker, Edwin Lemert) y crítica al diagnóstico (Brea Iglesias et al., 2025)"
       ],
       [
         "<strong>4</strong>",
-        "<strong>29/9/2026</strong>",
-        "Columna 5: niñez trabajando en plazas de mercado y semáforos",
-        "Reproducción Social: Bourdieu y Passeron"
+        "<strong>3/11/2026</strong>",
+        "Sustentación del periódico LA CUESTIÓN",
+        "Mesa de redacción · Presentación editorial ante la docente"
       ],
       [
         "<strong>5</strong>",
-        "<strong>6/10/2026</strong>",
-        "Sustentación",
-        "—"
+        "<strong>10/11/2026</strong>",
+        "Evaluación y entrega de notas",
+        "Cierre académico y balance formativo"
       ]
     ]
   },
   "cartas": {
     "titulo": "Cartas a la redacción",
     "parrafos": [
-      "¿Conoces un programa social que llegó tarde, llegó mal o nunca llegó? Escríbenos: la próxima cuestión puede salir de tu barrio.",
+      "¿Conoces una situación de vulneración en territorio o un programa social que no llega a la comunidad? Escríbenos: el análisis social nace del diálogo con las realidades del país.",
       "<strong>Correo:</strong> rcastillo@cenda.edu.co",
-      "<strong>Cómo citar:</strong> Mesa de redacción. (2026). <em>LA CUESTIÓN</em>, (1). Curso Problemas sociales contemporáneos."
+      "<strong>Cómo citar:</strong> Mesa de redacción (Prieto & Castillo). (2026). <em>LA CUESTIÓN</em>, Año I, N.° 2. Asignatura: Problemas sociales contemporáneos. Docente: Allison Paola Escobar."
     ]
   },
-  "titulo_referencias": "Referencias",
+  "titulo_referencias": "Referencias bibliográficas completas",
   "referencias": [
-    "Bourdieu, P., y Passeron, J.-C. (1970). <em>La reproduction: Éléments pour une théorie du système d’enseignement</em>. Les Éditions de Minuit.",
-    "Congreso de la República de Colombia. (2013). <em>Ley 1641 de 2013, por la cual se establecen los lineamientos para la formulación de la política pública social para habitantes de la calle</em>.",
+    "Becker, H. (2018). <em>Outsiders: Hacia una sociología de la desviación</em>. Siglo XXI Editores.",
+    "Bourdieu, P., y Passeron, J.-C. (1970). <em>La reproduction: Éléments pour une théorie du système d'enseignement</em>. Les Éditions de Minuit.",
+    "Brea Iglesias, J., Arias Astray, A., & Alonso González, D. (2025). El peso del diagnóstico en Trabajo Social. Una mirada crítica sobre etiquetado y estigma. <em>Itinerarios de Trabajo Social</em>, (5), 7–15. https://doi.org/10.1344/its.i5.47263",
+    "Coalición contra la Vinculación de Niños, Niñas y Jóvenes al Conflicto Armado en Colombia [COALICO]. (2024). <em>Boletín de monitoreo sobre el uso y reclutamiento de niñas, niños y adolescentes en Colombia</em>. COALICO.",
+    "Corporación Sisma Mujer. (2024). <em>El banquillo de la impunidad: informe sobre el acceso a la justicia de las mujeres víctimas de violencia sexual en Colombia</em>. Sisma Mujer.",
+    "Defensoría del Pueblo de Colombia. (2023). <em>Alerta Temprana 004-2023: Riesgos y vulneraciones a los derechos de la niñez por dinámicas de reclutamiento forzado urbano</em>. Defensoría del Pueblo.",
+    "Defensoría del Pueblo de Colombia. (2024). <em>Sistema de Alertas Tempranas (SAT): Dinámicas de confinamiento y vulneración de derechos de los pueblos indígenas del Chocó</em>. Imprenta Nacional.",
     "Departamento Administrativo Nacional de Estadística [DANE]. (2021). <em>Censo de Habitantes de la Calle (CHC)</em>. https://www.dane.gov.co/index.php/estadisticas-por-tema/demografia-y-poblacion/censo-habitantes-de-la-calle",
     "Departamento Administrativo Nacional de Estadística [DANE]. (2026, 12 de junio). <em>Pobreza monetaria en Colombia. Año 2025</em> [Boletín técnico]. https://www.dane.gov.co/files/operaciones/PM/bol-PM-2025.pdf",
     "Departamento Nacional de Planeación [DNP]. (2016). <em>Documento CONPES 3877: Declaración de importancia estratégica del Sistema de Identificación de Potenciales Beneficiarios (Sisbén IV)</em>. https://colaboracion.dnp.gov.co/CDT/Conpes/Económicos/3877.pdf",
-    "El Tiempo. (2026, 28 de agosto). Reprograman pagos de Renta Ciudadana y Devolución del IVA en septiembre de 2026 por revisión técnica del RUI. <em>El Tiempo</em>.",
-    "El Universal. (2026, 12 de junio). Trabajo infantil en Colombia afectó a 302.000 menores en 2025. <em>El Universal</em>. https://www.eluniversal.com.co/colombia/2026/06/12/trabajo-infantil-en-colombia-afecto-a-302000-menores-en-2025/",
-    "La República. (2021). Entre 2017 y 2021 se censaron 34.091 habitantes de calle en el territorio nacional. <em>La República</em>. https://www.larepublica.co/economia/entre-2017-y-2021-se-censaron-34091-habitantes-de-calle-en-el-territorio-nacional-3274417",
+    "Fiscalía General de la Nación. (2025). <em>Boletín estadístico de seguimiento a investigaciones por delitos sexuales y de género</em>. Imprenta Nacional.",
+    "Instituto Nacional de Medicina Legal y Ciencias Forenses. (2025). <em>Forensis: Datos para la vida</em>. Grupo Centro de Referencia Nacional sobre Violencia.",
+    "La Parra, D., & Tortosa, J. M. (2003). Violencia estructural: una ilustración del concepto. <em>Documentación Social</em>, (131), 57–72.",
+    "Lemert, E. (1972). <em>Human deviance, social problems, and social control</em>. Prentice-Hall.",
+    "López, T. (2011). De Simone de Beauvoir a Judith Butler: el género y el sujeto. <em>Pasajes: Revista de pensamiento contemporáneo</em>, (37), 101–107. https://doi.org/10.2307/pasajes.37.101",
+    "López Fernández, M. del P. (2009). El concepto de anomia de Durkheim y las aportaciones teóricas posteriores. <em>Iberóforum. Revista de Ciencias Sociales de la Universidad Iberoamericana</em>, IV(8), 130–147.",
+    "López Hernández, J. (2022). Trabajo reproductivo, diferencia sexual y acumulación originaria: un diálogo entre Luce Irigaray y Silvia Federici. <em>Ciencia Política</em>, 17(33), 295–317. https://doi.org/10.15446/cp.v17n33.92505",
     "Nussbaum, M. C. (2012). <em>Crear capacidades: Propuesta para el desarrollo humano</em>. Paidós.",
+    "Organización Nacional Indígena de Colombia [ONIC]. (2024). <em>Pueblo Emberá en resistencia: informe de vulneraciones a los derechos humanos en el Pacífico colombiano</em>. ONIC.",
     "Personería Distrital de Medellín. (2024, 24 de septiembre). <em>889 personas han sido víctimas de desplazamiento intraurbano en 2024</em>. https://www.personeriamedellin.gov.co/889-personas-han-sido-victimas-de-desplazamiento-intraurbano-en-2024/",
+    "Red Nacional de Mujeres. (2024). <em>Barreras institucionales en el Sistema Penal Acusatorio: cuando la justicia culpa a la denunciante</em>. Red Nacional de Mujeres.",
     "Sen, A. (2000). <em>Desarrollo y libertad</em>. Planeta.",
     "Shaw, C. R., y McKay, H. D. (1942). <em>Juvenile delinquency and urban areas</em>. University of Chicago Press.",
     "Suárez, F. M. (1989). <em>Problemas sociales y problemas de programas sociales masivos</em>. Centro Interamericano para el Desarrollo Social (CIDES); CEPAL. https://repositorio.cepal.org/handle/11362/33446"
