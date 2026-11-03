@@ -1,0 +1,97 @@
+{
+  "tipo": "columna",
+  "menu": "Etiquetamiento",
+  "visible": true,
+  "cintillo": {
+    "seccion": "Análisis",
+    "detalle": "Teoría del etiquetado y estigma",
+    "derecha1": "Howard Becker · Edwin Lemert · Brea Iglesias et al.",
+    "derecha2": "Sesión 3 · 27 de octubre de 2026"
+  },
+  "antetitulo": "Juventud y conflicto · Periferias urbanas de Tumaco y Pereira",
+  "titulo": "De campanero a delincuente (cómo el estigma y las carpetas del Estado atrapan a los jóvenes en las bandas)",
+  "subtitulo": "Entre los barrios de bajamar de Tumaco y las comunas de ladera en Pereira, la vinculación de adolescentes a estructuras criminales no es un asunto de maldad de nacimiento. La teoría del etiquetamiento de Becker y Lemert, junto con la crítica al diagnóstico institucional de Brea Iglesias, explican cómo el señalamiento del barrio y las instituciones empujan a las nuevas generaciones a una carrera delictiva sin salida.",
+  "firma": "Mesa de redacción · Tumaco / Pereira",
+  "imagen": "imagenes/miniatura_combos.webp",
+  "pie": "Esquinas de barrio y pasarelas de bajamar: el campanero no nace en el crimen, sino que la sociedad lo empuja cuando las escuelas expulsan y las instituciones fijan el estigma.",
+  "glosario": {
+    "titulo": "Glosario teórico",
+    "terminos": [
+      {
+        "termino": "Desviación primaria y secundaria (Edwin Lemert / Brea Iglesias et al., 2025).",
+        "definicion": "La desviación primaria es la falta inicial o pasajera que comete un adolescente por curiosidad o necesidad puntual. Por su parte, la secundaria aparece cuando la policía, la escuela y los vecinos lo señalan y castigan tanto, que la persona termina reorganizando su vida, su identidad y su forma de defenderse alrededor del rótulo de delincuente que le clavaron."
+      },
+      {
+        "termino": "Estatus maestro y rasgos auxiliares (Howard Becker / Brea Iglesias et al., 2025).",
+        "definicion": "Es una etiqueta social tan dominante que borra todo lo demás que la persona es. Al menor de edad se le reconoce primero como campanero o vago antes que como estudiante o hijo, y de inmediato se le presumen rasgos negativos adicionales (como ser deshonesto, peligroso e incapaz de cambiar)."
+      },
+      {
+        "termino": "El peso del diagnóstico institucional (Brea Iglesias, Arias Astray & Alonso González, 2025).",
+        "definicion": "Crítica a la forma en que los juzgados, el ICBF y los propios profesionales de Trabajo Social clasifican a la juventud en informes oficiales. Al rotular a alguien como menor con perfil de riesgo o familia disfuncional, las instituciones fijan el estigma en el papel, les quitan la voz a las personas y terminan agravando el problema que supuestamente querían solucionar."
+      }
+    ]
+  },
+  "cronica": [
+    "En los barrios de bajamar de Tumaco (como Viento Libre, Nuevo Milenio o La Ciudadela), al igual que en las comunas populares de Pereira (como Villa Santana, Cuba o El Plumón), el reclutamiento y uso de adolescentes por parte de bandas delincuenciales, combos locales y grupos armados no es una excepción. De acuerdo con los informes de monitoreo de la Coalición contra la Vinculación de Niños, Niñas y Jóvenes al Conflicto Armado (COALICO) y las Alertas Tempranas de la Defensoría del Pueblo, miles de menores de edad entre los 12 y los 17 años son cooptados para vigilar las esquinas y los esteros (labor conocida en la calle como campanear), mover paquetes de droga, cobrar extorsiones al comercio de barrio o portar armas.",
+    "Este proceso no empieza con una ceremonia criminal ni por gusto. En estos sectores, marcados por la falta de colegios con jornada completa, el hacinamiento y la ausencia total de empleo formal, las bandas son muchas veces las únicas que ofrecen reconocimiento, pertenencia y dinero inmediato. Un adolescente empieza haciendo un favor pequeño al avisar por WhatsApp si entra la policía o llevar una encomienda a cambio de veinte o treinta mil pesos que alivian el hambre en la casa o sirven para comprarse unos zapatos.",
+    "Sin embargo, cuando la escuela o la policía descubren lo ocurrido, la reacción del entorno suele ser la expulsión. En el colegio cancelan la matrícula de inmediato (con el pretexto de no dañar la imagen de la institución), en el barrio los vecinos le advierten a sus familias que no se le acerquen y la policía perfila al joven como sospechoso permanente cada vez que pasa una patrulla. Si cae en manos del Sistema de Responsabilidad Penal para Adolescentes (SRPA) o de los centros de paso del ICBF, se le abre un expediente donde queda calificado como menor en conflicto con la ley. Lejos de abrirle caminos, esa marca social e institucional le cierra de golpe las pocas opciones que tenía para construir una vida legal."
+  ],
+  "lente": [
+    "El sentido común en la calle y en las redes suele despachar este drama con frases fáciles, pues dicen que la juventud se mete a las bandas por vagancia, porque quieren plata fácil o porque nacieron con maldad. La teoría del etiquetamiento (o labelling theory) de Howard Becker y Edwin Lemert (recuperada de forma crítica para el Trabajo Social por Juan Brea Iglesias, Andrés Arias Astray y David Alonso González, 2025) desarma esa idea simplista. La transgresión no es una enfermedad ni una falla que se traiga en los genes, sino que es una etiqueta construida por la manera en que la sociedad reacciona frente a las conductas.",
+    "Becker (1963, citado en Brea Iglesias et al., 2025) demostró que las normas sociales no las redacta todo el mundo por igual, sino los grupos que tienen el poder de imponer sus reglas. Por eso la ley no se aplica igual a todos, ya que si un estudiante de colegio privado o de barrio acomodado en Pereira fuma marihuana o comete una infracción, se le trata como a alguien que tuvo una mala tarde y su familia le paga asesoría. Pero si esa misma falta la comete un pelado de bajamar en Tumaco o de Villa Santana, la sociedad le cae encima y lo clasifica de inmediato como delincuente.",
+    "Aquí es clave la diferencia que hace Edwin Lemert entre desviación primaria y secundaria. El mandado o el aviso inicial para la banda es una desviación primaria (entendida como una falta puntual que todavía no define la identidad de la persona). La tragedia empieza cuando el barrio, la escuela y la policía le cuelgan el estatus maestro, de modo que en adelante nadie ve a un estudiante o a un hijo de familia, sino únicamente al campanero o al peligro de la cuadra.",
+    "Como explican Brea Iglesias et al. (2025), a quien queda etiquetado se le quitan los medios convencionales para ganarse la vida, pues ningún vecino le da trabajo, el colegio le niega el cupo y las miradas de sospecha lo acorralan. Sin opciones de sustento ni de afecto en el mundo formal, a la persona no le queda más remedio que refugiarse en el único lugar donde sí le pagan, la valoran y la cuidan (que suele ser la banda o el combo criminal). Es ahí donde se consolida la desviación secundaria, haciendo que el adolescente termine asumiendo como propia la identidad de infractor que la propia sociedad le impuso.",
+    "Por último, Brea Iglesias, Arias Astray y Alonso González (2025) alertan sobre lo que pasa dentro de las instituciones de protección social. Cuando las y los profesionales del ICBF o del sistema penal nos limitamos a llenar fichas burocráticas y a clasificar a los chicos con pruebas psicológicas (rotulándolos como menores con pronóstico delictivo o provenientes de un hogar desestructurado), actuamos como lo que Foucault llamaba una policía discursiva. Esto ocurre porque convertimos al adolescente en un objeto para vigilar y castigar, le quitamos la posibilidad de explicarse con sus propias palabras y fijamos en un expediente un estigma oficial que lo acompañará toda la vida."
+  ],
+  "cita": "«La desviación no es una cualidad del acto que la persona comete, sino una consecuencia de la aplicación que los otros hacen de las reglas y las sanciones» (Becker, 1963 / Brea Iglesias et al., 2025)",
+  "punto_ciego": [
+    "La prensa local y los noticieros comercializan estos hechos publicando fotos de jóvenes esposados con armas incautadas y usando titulares de pánico que piden mano dura. Por el lado de la política tradicional, la respuesta de siempre en época electoral es pedir que se baje la edad de responsabilidad penal a los 14 o a los 12 años, llenar los barrios populares de más patrullas y pedir celdas más duras en los centros de reclusión del SRPA.",
+    "El gran punto ciego de esa postura es no entender que la cárcel para menores no frena la delincuencia, sino que la produce y la perfecciona. Como recuerdan Brea Iglesias et al. (2025) apoyándose en Erving Goffman, las instituciones de encierro aíslan al interno de su entorno y mortifican su autonomía, haciéndole perder sus lazos comunitarios. Meter a un pelado de Tumaco o de Pereira a un centro de reclusión por avisar la llegada de una patrulla solo sirve para que pierda el contacto con su familia, aprenda conductas más peligrosas de los internos veteranos y salga graduado en el crimen. Creer que la delincuencia juvenil se acaba con más patrullas y barrotes es ignorar que el combo no seduce por la fuerza de las armas, sino porque llena el vacío que dejan un colegio que expulsa, un barrio sin oportunidades y un Estado que solo se aparece en forma de patrullero y esposas."
+  ],
+  "pasos": {
+    "titulo": "La cadena del etiquetamiento",
+    "items": [
+      "<strong>Falta primaria:</strong> el adolescente realiza labores de vigilancia o mandados puntuales para el combo por necesidad económica.",
+      "<strong>Imposición del estatus maestro:</strong> la escuela cancela la matrícula y la policía lo reseña como infractor permanente.",
+      "<strong>Clausura de oportunidades:</strong> el vecindario y el mercado laboral le cierran las puertas por portar la etiqueta.",
+      "<strong>Desviación secundaria:</strong> el joven asume la identidad delictiva y se refugia en la banda como única red de subsistencia y reconocimiento."
+    ]
+  },
+  "datos": [
+    {
+      "cifra": "12 a 17",
+      "texto": "rango de edad donde se concentra el uso de adolescentes en microtráfico y vigilancia en comunas (COALICO)"
+    },
+    {
+      "cifra": "70 %",
+      "texto": "de jóvenes desvinculados del sistema escolar reportan haber sido expulsados tras su primera detención"
+    },
+    {
+      "cifra": "0",
+      "texto": "opciones de empleo formal para menores con antecedentes en el Sistema de Responsabilidad Penal"
+    }
+  ],
+  "anuncio": {
+    "etiqueta": "Tribuna abierta",
+    "titulo": "Juventud y dignidad",
+    "texto": "¿Trabajas en procesos comunitarios, escuelas de arte o defensa de derechos de la juventud? Comparte tus reflexiones y crónicas en LA CUESTIÓN.",
+    "contacto": "rcastillo@cenda.edu.co",
+    "lema": "Mesa de redacción · Trabajo Social Crítico"
+  },
+  "conclusion": {
+    "titulo": "Conclusión · Recomendación desde el Trabajo Social Crítico",
+    "parrafos": [
+      "Siguiendo las conclusiones de Brea Iglesias, Arias Astray y Alonso González (2025), el Trabajo Social Crítico tiene el compromiso ético de dejar de actuar como una disciplina de control que solo vigila y clasifica la pobreza. La intervención profesional debe pasar del etiquetamiento a la emancipación de las juventudes, lo cual proponemos mediante tres tareas concretas.",
+      "1. Desmonte de los informes estigmatizantes en juzgados e ICBF. Las trabajadoras y trabajadores sociales debemos renunciar al uso de diagnósticos que culpen a los adolescentes o a sus madres. Los peritajes sociales deben documentar las causas estructurales del entorno (el desempleo de la familia, la falta de colegios en el barrio o el abandono estatal), asegurando que el expediente sirva para exigir garantías de derechos y no para sellar una condena social definitiva.",
+      "2. Justicia restaurativa con arraigo comunitario en vez de encierro. Impulsar que las faltas se resuelvan dentro de la propia comunidad y no encerrando a la gente en celdas que destruyen su dignidad. La labor profesional debe coordinar con las juntas de acción comunal, los colectivos juveniles y las organizaciones de base acuerdos de trabajo restaurativo (como el mantenimiento de espacios comunitarios, escuelas de música y arte urbano con marimba y rap en Tumaco, o colectivos culturales en Pereira), garantizando que el joven repare el daño sin perder el vínculo con su familia y sus vecinos.",
+      "3. Planes de vida con opciones de ingreso real y cooperativismo juvenil. Ningún taller de proyecto de vida en cartulina compite contra los fajos de billetes que ofrece un combo barrial. El Trabajo Social Crítico debe presionar a las alcaldías y a la cooperación para que los presupuestos de seguridad se trasladen a fondos rotatorios y cooperativas juveniles autogestionadas (talleres de oficios técnicos, iniciativas gastronómicas o emprendimientos productivos) con subsidios de sostenimiento. La única manera efectiva de disputarle la juventud a la delincuencia en Tumaco y en Pereira es garantizando comida en la casa, trabajo digno y la posibilidad real de ser respetado en la comunidad sin tener que cargar un arma."
+    ]
+  },
+  "fuentes": [
+    "Becker, H. (2018). <em>Outsiders: Hacia una sociología de la desviación</em>. Siglo XXI Editores.",
+    "Brea Iglesias, J., Arias Astray, A., & Alonso González, D. (2025). El peso del diagnóstico en Trabajo Social. Una mirada crítica sobre etiquetado y estigma. <em>Itinerarios de Trabajo Social</em>, (5), 7–15. https://doi.org/10.1344/its.i5.47263",
+    "Coalición contra la Vinculación de Niños, Niñas y Jóvenes al Conflicto Armado en Colombia [COALICO]. (2024). <em>Boletín de monitoreo sobre el uso y reclutamiento de niñas, niños y adolescentes en Colombia</em>. COALICO.",
+    "Defensoría del Pueblo de Colombia. (2023). <em>Alerta Temprana 004-2023: Riesgos y vulneraciones a los derechos de la niñez por dinámicas de reclutamiento forzado urbano</em>. Defensoría del Pueblo.",
+    "Lemert, E. (1972). <em>Human deviance, social problems, and social control</em>. Prentice-Hall."
+  ]
+}
